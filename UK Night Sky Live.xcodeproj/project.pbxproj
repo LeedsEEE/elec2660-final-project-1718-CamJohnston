@@ -1,0 +1,536 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		B6E08CB41FC3015B00C71EDC /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = B6E08CB31FC3015B00C71EDC /* main.m */; };
+		B6E08CB71FC3015B00C71EDC /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = B6E08CB61FC3015B00C71EDC /* AppDelegate.m */; };
+		B6E08CBA1FC3015B00C71EDC /* FirstViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = B6E08CB91FC3015B00C71EDC /* FirstViewController.m */; };
+		B6E08CBD1FC3015B00C71EDC /* SecondViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = B6E08CBC1FC3015B00C71EDC /* SecondViewController.m */; };
+		B6E08CC01FC3015B00C71EDC /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = B6E08CBE1FC3015B00C71EDC /* Main.storyboard */; };
+		B6E08CC21FC3015B00C71EDC /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = B6E08CC11FC3015B00C71EDC /* Assets.xcassets */; };
+		B6E08CC51FC3015B00C71EDC /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = B6E08CC31FC3015B00C71EDC /* LaunchScreen.storyboard */; };
+		B6E08CD01FC3015B00C71EDC /* UK_Night_Sky_LiveTests.m in Sources */ = {isa = PBXBuildFile; fileRef = B6E08CCF1FC3015B00C71EDC /* UK_Night_Sky_LiveTests.m */; };
+		B6E08CDB1FC3015B00C71EDC /* UK_Night_Sky_LiveUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = B6E08CDA1FC3015B00C71EDC /* UK_Night_Sky_LiveUITests.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		B6E08CCC1FC3015B00C71EDC /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = B6E08CA71FC3015A00C71EDC /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = B6E08CAE1FC3015A00C71EDC;
+			remoteInfo = "UK Night Sky Live";
+		};
+		B6E08CD71FC3015B00C71EDC /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = B6E08CA71FC3015A00C71EDC /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = B6E08CAE1FC3015A00C71EDC;
+			remoteInfo = "UK Night Sky Live";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		B6E08CAF1FC3015B00C71EDC /* UK Night Sky Live.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "UK Night Sky Live.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		B6E08CB31FC3015B00C71EDC /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		B6E08CB51FC3015B00C71EDC /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		B6E08CB61FC3015B00C71EDC /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		B6E08CB81FC3015B00C71EDC /* FirstViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = FirstViewController.h; sourceTree = "<group>"; };
+		B6E08CB91FC3015B00C71EDC /* FirstViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = FirstViewController.m; sourceTree = "<group>"; };
+		B6E08CBB1FC3015B00C71EDC /* SecondViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = SecondViewController.h; sourceTree = "<group>"; };
+		B6E08CBC1FC3015B00C71EDC /* SecondViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SecondViewController.m; sourceTree = "<group>"; };
+		B6E08CBF1FC3015B00C71EDC /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		B6E08CC11FC3015B00C71EDC /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		B6E08CC41FC3015B00C71EDC /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		B6E08CC61FC3015B00C71EDC /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		B6E08CCB1FC3015B00C71EDC /* UK Night Sky LiveTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "UK Night Sky LiveTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		B6E08CCF1FC3015B00C71EDC /* UK_Night_Sky_LiveTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = UK_Night_Sky_LiveTests.m; sourceTree = "<group>"; };
+		B6E08CD11FC3015B00C71EDC /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		B6E08CD61FC3015B00C71EDC /* UK Night Sky LiveUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "UK Night Sky LiveUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		B6E08CDA1FC3015B00C71EDC /* UK_Night_Sky_LiveUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = UK_Night_Sky_LiveUITests.m; sourceTree = "<group>"; };
+		B6E08CDC1FC3015B00C71EDC /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		B6E08CAC1FC3015A00C71EDC /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B6E08CC81FC3015B00C71EDC /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B6E08CD31FC3015B00C71EDC /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		B6E08CA61FC3015A00C71EDC = {
+			isa = PBXGroup;
+			children = (
+				B6E08CB11FC3015B00C71EDC /* UK Night Sky Live */,
+				B6E08CCE1FC3015B00C71EDC /* UK Night Sky LiveTests */,
+				B6E08CD91FC3015B00C71EDC /* UK Night Sky LiveUITests */,
+				B6E08CB01FC3015B00C71EDC /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		B6E08CB01FC3015B00C71EDC /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				B6E08CAF1FC3015B00C71EDC /* UK Night Sky Live.app */,
+				B6E08CCB1FC3015B00C71EDC /* UK Night Sky LiveTests.xctest */,
+				B6E08CD61FC3015B00C71EDC /* UK Night Sky LiveUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		B6E08CB11FC3015B00C71EDC /* UK Night Sky Live */ = {
+			isa = PBXGroup;
+			children = (
+				B6E08CB51FC3015B00C71EDC /* AppDelegate.h */,
+				B6E08CB61FC3015B00C71EDC /* AppDelegate.m */,
+				B6E08CB81FC3015B00C71EDC /* FirstViewController.h */,
+				B6E08CB91FC3015B00C71EDC /* FirstViewController.m */,
+				B6E08CBB1FC3015B00C71EDC /* SecondViewController.h */,
+				B6E08CBC1FC3015B00C71EDC /* SecondViewController.m */,
+				B6E08CBE1FC3015B00C71EDC /* Main.storyboard */,
+				B6E08CC11FC3015B00C71EDC /* Assets.xcassets */,
+				B6E08CC31FC3015B00C71EDC /* LaunchScreen.storyboard */,
+				B6E08CC61FC3015B00C71EDC /* Info.plist */,
+				B6E08CB21FC3015B00C71EDC /* Supporting Files */,
+			);
+			path = "UK Night Sky Live";
+			sourceTree = "<group>";
+		};
+		B6E08CB21FC3015B00C71EDC /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				B6E08CB31FC3015B00C71EDC /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		B6E08CCE1FC3015B00C71EDC /* UK Night Sky LiveTests */ = {
+			isa = PBXGroup;
+			children = (
+				B6E08CCF1FC3015B00C71EDC /* UK_Night_Sky_LiveTests.m */,
+				B6E08CD11FC3015B00C71EDC /* Info.plist */,
+			);
+			path = "UK Night Sky LiveTests";
+			sourceTree = "<group>";
+		};
+		B6E08CD91FC3015B00C71EDC /* UK Night Sky LiveUITests */ = {
+			isa = PBXGroup;
+			children = (
+				B6E08CDA1FC3015B00C71EDC /* UK_Night_Sky_LiveUITests.m */,
+				B6E08CDC1FC3015B00C71EDC /* Info.plist */,
+			);
+			path = "UK Night Sky LiveUITests";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		B6E08CAE1FC3015A00C71EDC /* UK Night Sky Live */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = B6E08CDF1FC3015B00C71EDC /* Build configuration list for PBXNativeTarget "UK Night Sky Live" */;
+			buildPhases = (
+				B6E08CAB1FC3015A00C71EDC /* Sources */,
+				B6E08CAC1FC3015A00C71EDC /* Frameworks */,
+				B6E08CAD1FC3015A00C71EDC /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "UK Night Sky Live";
+			productName = "UK Night Sky Live";
+			productReference = B6E08CAF1FC3015B00C71EDC /* UK Night Sky Live.app */;
+			productType = "com.apple.product-type.application";
+		};
+		B6E08CCA1FC3015B00C71EDC /* UK Night Sky LiveTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = B6E08CE21FC3015B00C71EDC /* Build configuration list for PBXNativeTarget "UK Night Sky LiveTests" */;
+			buildPhases = (
+				B6E08CC71FC3015B00C71EDC /* Sources */,
+				B6E08CC81FC3015B00C71EDC /* Frameworks */,
+				B6E08CC91FC3015B00C71EDC /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				B6E08CCD1FC3015B00C71EDC /* PBXTargetDependency */,
+			);
+			name = "UK Night Sky LiveTests";
+			productName = "UK Night Sky LiveTests";
+			productReference = B6E08CCB1FC3015B00C71EDC /* UK Night Sky LiveTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		B6E08CD51FC3015B00C71EDC /* UK Night Sky LiveUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = B6E08CE51FC3015B00C71EDC /* Build configuration list for PBXNativeTarget "UK Night Sky LiveUITests" */;
+			buildPhases = (
+				B6E08CD21FC3015B00C71EDC /* Sources */,
+				B6E08CD31FC3015B00C71EDC /* Frameworks */,
+				B6E08CD41FC3015B00C71EDC /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				B6E08CD81FC3015B00C71EDC /* PBXTargetDependency */,
+			);
+			name = "UK Night Sky LiveUITests";
+			productName = "UK Night Sky LiveUITests";
+			productReference = B6E08CD61FC3015B00C71EDC /* UK Night Sky LiveUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		B6E08CA71FC3015A00C71EDC /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0800;
+				ORGANIZATIONNAME = "Cameron Johnston [el16cj]";
+				TargetAttributes = {
+					B6E08CAE1FC3015A00C71EDC = {
+						CreatedOnToolsVersion = 8.0;
+						ProvisioningStyle = Automatic;
+					};
+					B6E08CCA1FC3015B00C71EDC = {
+						CreatedOnToolsVersion = 8.0;
+						ProvisioningStyle = Automatic;
+						TestTargetID = B6E08CAE1FC3015A00C71EDC;
+					};
+					B6E08CD51FC3015B00C71EDC = {
+						CreatedOnToolsVersion = 8.0;
+						ProvisioningStyle = Automatic;
+						TestTargetID = B6E08CAE1FC3015A00C71EDC;
+					};
+				};
+			};
+			buildConfigurationList = B6E08CAA1FC3015A00C71EDC /* Build configuration list for PBXProject "UK Night Sky Live" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = B6E08CA61FC3015A00C71EDC;
+			productRefGroup = B6E08CB01FC3015B00C71EDC /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				B6E08CAE1FC3015A00C71EDC /* UK Night Sky Live */,
+				B6E08CCA1FC3015B00C71EDC /* UK Night Sky LiveTests */,
+				B6E08CD51FC3015B00C71EDC /* UK Night Sky LiveUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		B6E08CAD1FC3015A00C71EDC /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B6E08CC51FC3015B00C71EDC /* LaunchScreen.storyboard in Resources */,
+				B6E08CC21FC3015B00C71EDC /* Assets.xcassets in Resources */,
+				B6E08CC01FC3015B00C71EDC /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B6E08CC91FC3015B00C71EDC /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B6E08CD41FC3015B00C71EDC /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		B6E08CAB1FC3015A00C71EDC /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B6E08CBD1FC3015B00C71EDC /* SecondViewController.m in Sources */,
+				B6E08CB71FC3015B00C71EDC /* AppDelegate.m in Sources */,
+				B6E08CBA1FC3015B00C71EDC /* FirstViewController.m in Sources */,
+				B6E08CB41FC3015B00C71EDC /* main.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B6E08CC71FC3015B00C71EDC /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B6E08CD01FC3015B00C71EDC /* UK_Night_Sky_LiveTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B6E08CD21FC3015B00C71EDC /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B6E08CDB1FC3015B00C71EDC /* UK_Night_Sky_LiveUITests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		B6E08CCD1FC3015B00C71EDC /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = B6E08CAE1FC3015A00C71EDC /* UK Night Sky Live */;
+			targetProxy = B6E08CCC1FC3015B00C71EDC /* PBXContainerItemProxy */;
+		};
+		B6E08CD81FC3015B00C71EDC /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = B6E08CAE1FC3015A00C71EDC /* UK Night Sky Live */;
+			targetProxy = B6E08CD71FC3015B00C71EDC /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		B6E08CBE1FC3015B00C71EDC /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				B6E08CBF1FC3015B00C71EDC /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		B6E08CC31FC3015B00C71EDC /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				B6E08CC41FC3015B00C71EDC /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		B6E08CDD1FC3015B00C71EDC /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVES = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		B6E08CDE1FC3015B00C71EDC /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVES = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		B6E08CE01FC3015B00C71EDC /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = "UK Night Sky Live/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "uk.ac.leeds.UK-Night-Sky-Live";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		B6E08CE11FC3015B00C71EDC /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = "UK Night Sky Live/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "uk.ac.leeds.UK-Night-Sky-Live";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		B6E08CE31FC3015B00C71EDC /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = "UK Night Sky LiveTests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "uk.ac.leeds.UK-Night-Sky-LiveTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/UK Night Sky Live.app/UK Night Sky Live";
+			};
+			name = Debug;
+		};
+		B6E08CE41FC3015B00C71EDC /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = "UK Night Sky LiveTests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "uk.ac.leeds.UK-Night-Sky-LiveTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/UK Night Sky Live.app/UK Night Sky Live";
+			};
+			name = Release;
+		};
+		B6E08CE61FC3015B00C71EDC /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = "UK Night Sky LiveUITests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "uk.ac.leeds.UK-Night-Sky-LiveUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = "UK Night Sky Live";
+			};
+			name = Debug;
+		};
+		B6E08CE71FC3015B00C71EDC /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = "UK Night Sky LiveUITests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "uk.ac.leeds.UK-Night-Sky-LiveUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = "UK Night Sky Live";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		B6E08CAA1FC3015A00C71EDC /* Build configuration list for PBXProject "UK Night Sky Live" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				B6E08CDD1FC3015B00C71EDC /* Debug */,
+				B6E08CDE1FC3015B00C71EDC /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		B6E08CDF1FC3015B00C71EDC /* Build configuration list for PBXNativeTarget "UK Night Sky Live" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				B6E08CE01FC3015B00C71EDC /* Debug */,
+				B6E08CE11FC3015B00C71EDC /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		B6E08CE21FC3015B00C71EDC /* Build configuration list for PBXNativeTarget "UK Night Sky LiveTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				B6E08CE31FC3015B00C71EDC /* Debug */,
+				B6E08CE41FC3015B00C71EDC /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		B6E08CE51FC3015B00C71EDC /* Build configuration list for PBXNativeTarget "UK Night Sky LiveUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				B6E08CE61FC3015B00C71EDC /* Debug */,
+				B6E08CE71FC3015B00C71EDC /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = B6E08CA71FC3015A00C71EDC /* Project object */;
+}
