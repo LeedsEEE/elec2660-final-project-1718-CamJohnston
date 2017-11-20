@@ -15,7 +15,7 @@
 		B6E08CC51FC3015B00C71EDC /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = B6E08CC31FC3015B00C71EDC /* LaunchScreen.storyboard */; };
 		B6E08CD01FC3015B00C71EDC /* UK_Night_Sky_LiveTests.m in Sources */ = {isa = PBXBuildFile; fileRef = B6E08CCF1FC3015B00C71EDC /* UK_Night_Sky_LiveTests.m */; };
 		B6E08CDB1FC3015B00C71EDC /* UK_Night_Sky_LiveUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = B6E08CDA1FC3015B00C71EDC /* UK_Night_Sky_LiveUITests.m */; };
-		B6E08CEA1FC30AB700C71EDC /* SkyLiveTableViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = B6E08CE91FC30AB700C71EDC /* SkyLiveTableViewController.m */; };
+		B6E08CED1FC30CA400C71EDC /* SkyLiveTableViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = B6E08CEC1FC30CA400C71EDC /* SkyLiveTableViewController.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -52,8 +52,8 @@
 		B6E08CD61FC3015B00C71EDC /* UK Night Sky LiveUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "UK Night Sky LiveUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		B6E08CDA1FC3015B00C71EDC /* UK_Night_Sky_LiveUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = UK_Night_Sky_LiveUITests.m; sourceTree = "<group>"; };
 		B6E08CDC1FC3015B00C71EDC /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		B6E08CE81FC30AB700C71EDC /* SkyLiveTableViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SkyLiveTableViewController.h; sourceTree = "<group>"; };
-		B6E08CE91FC30AB700C71EDC /* SkyLiveTableViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SkyLiveTableViewController.m; sourceTree = "<group>"; };
+		B6E08CEB1FC30CA400C71EDC /* SkyLiveTableViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = SkyLiveTableViewController.h; path = ../SkyLiveTableViewController.h; sourceTree = "<group>"; };
+		B6E08CEC1FC30CA400C71EDC /* SkyLiveTableViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = SkyLiveTableViewController.m; path = ../SkyLiveTableViewController.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -104,13 +104,13 @@
 		B6E08CB11FC3015B00C71EDC /* UK Night Sky Live */ = {
 			isa = PBXGroup;
 			children = (
+				B6E08CEB1FC30CA400C71EDC /* SkyLiveTableViewController.h */,
+				B6E08CEC1FC30CA400C71EDC /* SkyLiveTableViewController.m */,
 				B6E08CB51FC3015B00C71EDC /* AppDelegate.h */,
 				B6E08CB61FC3015B00C71EDC /* AppDelegate.m */,
 				B6E08CB81FC3015B00C71EDC /* FirstViewController.h */,
 				B6E08CB91FC3015B00C71EDC /* FirstViewController.m */,
 				B6E08CBE1FC3015B00C71EDC /* Main.storyboard */,
-				B6E08CE81FC30AB700C71EDC /* SkyLiveTableViewController.h */,
-				B6E08CE91FC30AB700C71EDC /* SkyLiveTableViewController.m */,
 				B6E08CC11FC3015B00C71EDC /* Assets.xcassets */,
 				B6E08CC31FC3015B00C71EDC /* LaunchScreen.storyboard */,
 				B6E08CC61FC3015B00C71EDC /* Info.plist */,
@@ -279,7 +279,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				B6E08CB71FC3015B00C71EDC /* AppDelegate.m in Sources */,
-				B6E08CEA1FC30AB700C71EDC /* SkyLiveTableViewController.m in Sources */,
+				B6E08CED1FC30CA400C71EDC /* SkyLiveTableViewController.m in Sources */,
 				B6E08CBA1FC3015B00C71EDC /* FirstViewController.m in Sources */,
 				B6E08CB41FC3015B00C71EDC /* main.m in Sources */,
 			);
