@@ -19,7 +19,7 @@
         Constellation *orion = [[Constellation alloc] init];
         orion.constellationName = @"Orion";
         orion.information = @"A constellation notable for it's recognisable three stars that make up the belt";
-        orion.monthsVisible = 011111111000;
+        orion.monthsVisible = 2040;
         
     }
     return self;
