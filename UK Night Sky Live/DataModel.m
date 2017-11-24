@@ -20,10 +20,68 @@
         orion.constellationName = @"Orion";
         orion.information = @"A constellation notable for it's recognisable three stars that make up the belt";
         orion.monthsVisible = 2040;
+        orion.monthsVisibleArray = @[@0,@1,@1,@1,@1,@1,@1,@1,@1,@0,@0,@0];
         
+        self.constellations = [NSMutableArray array];
+        Constellation *cassiopeia = [[Constellation alloc] init];
+        cassiopeia.constellationName = @"Cassiopeia";
+        cassiopeia.information = @"A constellation that forms a W shape in the night sky";
+        cassiopeia.monthsVisible = 0;
+        cassiopeia.monthsVisibleArray = @[@1,@1,@1,@1,@1,@1,@1,@1,@1,@1,@1,@1];
+        
+        NSInteger CurrentMonth;
+        
+        NSDate *currentDate = [NSDate date];
+        NSCalendar* calendar = [NSCalendar currentCalendar];
+        NSDateComponents* components = [calendar components:NSCalendarUnitMonth fromDate:currentDate];
+        
+        CurrentMonth = [components month];
+        
+        NSLog(@"CURRENT MONTH IS %ld", (long)CurrentMonth);
+        NSNumber *poo = [orion.monthsVisibleArray objectAtIndex:0];
+        NSLog(@"ARRAY VALUE 1 is %@", poo);
+        
+        NSArray *myConstellations;
+        
+        myConstellations = @[@"orion",@"cassiopeia"];
+        
+        [self.constellations addObject:orion];
+        [self.constellations addObject:cassiopeia];
+        
+        for (int i = 0; i == 11; i++) {
+            
+            Constellation *currentConstellation = [self.constellations objectAtIndex:i];
+            NSNumber *isItVisible = [currentConstellation.monthsVisibleArray objectAtIndex:CurrentMonth];
+            
+            NSLog(@"VISIBLE???? %@", isItVisible);
+            NSLog(@"HELLO");
+
+            if (isItVisible == 1){
+            
+                [self.constellations addObject:currentConstellation];
+                
+                
+            }
+        }
+        
+
     }
     return self;
 }
-
+/*
+-(long) getMonth {
+    
+    NSInteger CurrentMonth;
+    
+    NSDate *currentDate = [NSDate date];
+    NSCalendar* calendar = [NSCalendar currentCalendar];
+    NSDateComponents* components = [calendar components:NSCalendarUnitMonth fromDate:currentDate];
+    
+    CurrentMonth = [components month];
+    
+    NSLog(@"CURRENT MONTH IS %ld", (long)CurrentMonth);
+    
+    return CurrentMonth;
+}*/
 @end
 

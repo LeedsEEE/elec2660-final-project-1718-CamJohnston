@@ -16,12 +16,18 @@
 
 - (void)viewDidLoad {
     [super viewDidLoad];
+    self.getMonth = [[DataModel alloc] init];
+    
+    self.data = [[DataModel alloc] init];
     
     // Uncomment the following line to preserve selection between presentations.
     // self.clearsSelectionOnViewWillAppear = NO;
     
     // Uncomment the following line to display an Edit button in the navigation bar for this view controller.
     // self.navigationItem.rightBarButtonItem = self.editButtonItem;
+    
+    
+    
 }
 
 - (void)didReceiveMemoryWarning {
@@ -32,24 +38,37 @@
 #pragma mark - Table view data source
 
 - (NSInteger)numberOfSectionsInTableView:(UITableView *)tableView {
-#warning Incomplete implementation, return the number of sections
-    return 0;
+
+    return 1;
 }
 
 - (NSInteger)tableView:(UITableView *)tableView numberOfRowsInSection:(NSInteger)section {
-#warning Incomplete implementation, return the number of rows
-    return 0;
+    
+    NSInteger numberofRows;
+    
+    if (section == 0) {
+        numberofRows = self.data.constellations.count;
+    }
+
+    return numberofRows;
 }
 
-/*
+
 - (UITableViewCell *)tableView:(UITableView *)tableView cellForRowAtIndexPath:(NSIndexPath *)indexPath {
-    UITableViewCell *cell = [tableView dequeueReusableCellWithIdentifier:<#@"reuseIdentifier"#> forIndexPath:indexPath];
+    UITableViewCell *cell = [tableView dequeueReusableCellWithIdentifier:@"ConstellationCell" forIndexPath:indexPath];
     
     // Configure the cell...
     
+    if(indexPath.section == 0){
+        Constellation *tempConstellation = [self.data.constellations objectAtIndex:indexPath.row];
+        
+        cell.textLabel.text = tempConstellation.constellationName;
+        
+    }
+    
     return cell;
 }
-*/
+
 
 /*
 // Override to support conditional editing of the table view.

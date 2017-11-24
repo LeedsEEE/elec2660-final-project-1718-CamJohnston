@@ -13,5 +13,8 @@
 @property (nonatomic, strong) NSString *constellationName;
 @property (nonatomic, strong) NSString *information;
 @property NSInteger monthsVisible;
+@property NSArray *monthsVisibleArray;
+
+
 
 @end

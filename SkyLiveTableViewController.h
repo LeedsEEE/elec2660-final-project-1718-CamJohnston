@@ -7,7 +7,9 @@
 //
 
 #import <UIKit/UIKit.h>
+#import "DataModel.h"
 
 @interface SkyLiveTableViewController : UITableViewController
-
+@property (nonatomic, strong) DataModel *getMonth;
+@property (strong, nonatomic) DataModel *data;
 @end
