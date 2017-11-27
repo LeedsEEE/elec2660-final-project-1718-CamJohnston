@@ -48,20 +48,51 @@
         [self.constellations addObject:orion];
         [self.constellations addObject:cassiopeia];
         
-        for (int i = 0; i == 11; i++) {
+
+        NSInteger i = 0;
+        
+        while (i <= 1) {
+            
+
+            
+        
+            
+            
+            NSString *currentC = [myConstellations objectAtIndex:i];
+            
+            NSLog(@"Current C = %@", currentC);
+            
+            /*
             
             Constellation *currentConstellation = [self.constellations objectAtIndex:i];
             NSNumber *isItVisible = [currentConstellation.monthsVisibleArray objectAtIndex:CurrentMonth];
             
-            NSLog(@"VISIBLE???? %@", isItVisible);
-            NSLog(@"HELLO");
-
-            if (isItVisible == 1){
+            NSLog(@"Current = %@", [self.constellations objectAtIndex:i]);
+             
+             */
             
-                [self.constellations addObject:currentConstellation];
+            Constellation *currentConstellation = [myConstellations objectAtIndex:i];
+            
+            NSLog(@"In currentConstellation %@", currentConstellation);
+            
+            
+            
+            
+
+           /* if (isItVisible == 1){
+            
+                //[self.constellations addObject:currentConstellation];
+                
+                NSLog(@"Hi");
+                
                 
                 
             }
+          */
+            
+            NSLog(@"%ld", (long)i);
+            
+            i++;
         }
         
 
