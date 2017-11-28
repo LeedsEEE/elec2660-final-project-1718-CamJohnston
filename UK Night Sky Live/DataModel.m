@@ -56,33 +56,10 @@
         
         while (i <= 1) {
             
-
-            
-        
-            
-            
-            NSString *currentC = [myConstellations objectAtIndex:i];
-            Constellation *currentConstellation2 = [myConstellations objectAtIndex:i];
         
             NSInteger position = CurrentMonth - 1;
             
             
-            NSLog(@"Current C = %@", currentC);
-            NSLog(@"Current C2 = %@", currentConstellation2);
-            NSLog(@"CURRENT MONTH IS %ld", (long)CurrentMonth);
-            
-            
-            
-          /*  Constellation *currentConstellation = [self.constellations objectAtIndex:i];
-            NSNumber *isItVisible = [currentConstellation.monthsVisibleArray objectAtIndex:CurrentMonth];
-            
-            NSLog(@"Current = %@", [self.constellations objectAtIndex:i]);
-            */
-        
-        
-        
-        //Constellation *checkingConstellation = [self.internalData.constellations objectAtIndex:i];
-        
         Constellation *checkingConstellation = [[Constellation alloc] init];
         
         checkingConstellation = [self.constellations objectAtIndex:i];
@@ -104,29 +81,6 @@
             
         }
         
-            //NSLog(@"Current = %@", [self.constellations objectAtIndex:i]);
-             
-             
-            
-            //Constellation *currentConstellation = [myConstellations objectAtIndex:i];   //currentConstellation gives the curretn constellation being checked
-            
-            //NSLog(@"In currentConstellation %@", currentConstellation);
-            
-            
-            
-            
-
-           /* if (isItVisible == 1){
-            
-                //[self.constellations addObject:currentConstellation];
-                
-                NSLog(@"Hi");
-                
-                
-                
-            }
-          */
-            
             NSLog(@"%ld", (long)i);
             
             i++;
@@ -136,20 +90,6 @@
     }
     return self;
 }
-/*
--(long) getMonth {
-    
-    NSInteger CurrentMonth;
-    
-    NSDate *currentDate = [NSDate date];
-    NSCalendar* calendar = [NSCalendar currentCalendar];
-    NSDateComponents* components = [calendar components:NSCalendarUnitMonth fromDate:currentDate];
-    
-    CurrentMonth = [components month];
-    
-    NSLog(@"CURRENT MONTH IS %ld", (long)CurrentMonth);
-    
-    return CurrentMonth;
-}*/
+
 @end
 
