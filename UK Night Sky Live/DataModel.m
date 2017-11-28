@@ -38,8 +38,8 @@
         CurrentMonth = [components month];
         
         NSLog(@"CURRENT MONTH IS %ld", (long)CurrentMonth);
-        NSNumber *poo = [orion.monthsVisibleArray objectAtIndex:0];
-        NSLog(@"ARRAY VALUE 1 is %@", poo);
+        NSNumber *testVisible = [orion.monthsVisibleArray objectAtIndex:0];
+        NSLog(@"ARRAY VALUE 1 is %@", testVisible);
         
         NSArray *myConstellations;
         
@@ -51,7 +51,7 @@
 
         NSInteger i = 0;
         
-        while (i <= 1) {
+        //while (i <= 1) {
             
 
             
@@ -59,21 +59,49 @@
             
             
             NSString *currentC = [myConstellations objectAtIndex:i];
+            Constellation *currentConstellation2 = [myConstellations objectAtIndex:i];
+        
+            NSInteger position = CurrentMonth - 1;
+            
             
             NSLog(@"Current C = %@", currentC);
+            NSLog(@"Current C2 = %@", currentConstellation2);
+            NSLog(@"CURRENT MONTH IS %ld", (long)CurrentMonth);
             
-            /*
             
-            Constellation *currentConstellation = [self.constellations objectAtIndex:i];
+            
+          /*  Constellation *currentConstellation = [self.constellations objectAtIndex:i];
             NSNumber *isItVisible = [currentConstellation.monthsVisibleArray objectAtIndex:CurrentMonth];
             
             NSLog(@"Current = %@", [self.constellations objectAtIndex:i]);
+            */
+        
+        
+        
+        //Constellation *checkingConstellation = [self.internalData.constellations objectAtIndex:i];
+        
+        Constellation *checkingConstellation = [[Constellation alloc] init];
+        
+        checkingConstellation = [self.constellations objectAtIndex:i];
+        
+        NSString *name = checkingConstellation.constellationName;
+        
+        
+        NSLog(@"%@", name);
+        NSLog(@"%@", checkingConstellation);
+        
+        
+            NSNumber *isItVisible = [checkingConstellation.monthsVisibleArray objectAtIndex:position];
+            
+            NSLog(@"VISIBILITY CHECK %@", isItVisible);
+            
+            //NSLog(@"Current = %@", [self.constellations objectAtIndex:i]);
              
-             */
+             
             
-            Constellation *currentConstellation = [myConstellations objectAtIndex:i];
+            //Constellation *currentConstellation = [myConstellations objectAtIndex:i];   //currentConstellation gives the curretn constellation being checked
             
-            NSLog(@"In currentConstellation %@", currentConstellation);
+            //NSLog(@"In currentConstellation %@", currentConstellation);
             
             
             
@@ -93,7 +121,7 @@
             NSLog(@"%ld", (long)i);
             
             i++;
-        }
+        //}
         
 
     }
