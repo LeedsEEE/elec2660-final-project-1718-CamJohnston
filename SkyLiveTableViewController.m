@@ -47,7 +47,7 @@
     NSInteger numberofRows;
     
     if (section == 0) {
-        numberofRows = self.data.constellations.count;
+        numberofRows = self.data.visibleConstellations.count;
     }
 
     return numberofRows;
@@ -60,7 +60,7 @@
     // Configure the cell...
     
     if(indexPath.section == 0){
-        Constellation *tempConstellation = [self.data.constellations objectAtIndex:indexPath.row];
+        Constellation *tempConstellation = [self.data.visibleConstellations objectAtIndex:indexPath.row];
         
         cell.textLabel.text = tempConstellation.constellationName;
         

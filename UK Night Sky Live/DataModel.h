@@ -12,6 +12,7 @@
 @interface DataModel : NSObject
 
 @property (strong, nonatomic) NSMutableArray *constellations;
+@property (strong, nonatomic) NSMutableArray *visibleConstellations;
 @property (strong, nonatomic) NSString *currentConstellation;
 @property (strong, nonatomic) NSString *currentConstellation2;
 @property (strong, nonatomic) DataModel *internalData;

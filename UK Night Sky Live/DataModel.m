@@ -15,6 +15,8 @@
     self = [super init];
     if (self) {
         
+        self.visibleConstellations = [NSMutableArray array];
+        
         self.constellations = [NSMutableArray array];
         Constellation *orion = [[Constellation alloc] init];
         orion.constellationName = @"Orion";
@@ -50,8 +52,9 @@
         
 
         NSInteger i = 0;
+      
         
-        //while (i <= 1) {
+        while (i <= 1) {
             
 
             
@@ -94,7 +97,13 @@
             NSNumber *isItVisible = [checkingConstellation.monthsVisibleArray objectAtIndex:position];
             
             NSLog(@"VISIBILITY CHECK %@", isItVisible);
+        
+        if (isItVisible.intValue == 1){
+        
+        [self.visibleConstellations addObject:checkingConstellation];
             
+        }
+        
             //NSLog(@"Current = %@", [self.constellations objectAtIndex:i]);
              
              
@@ -121,7 +130,7 @@
             NSLog(@"%ld", (long)i);
             
             i++;
-        //}
+        }
         
 
     }
