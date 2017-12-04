@@ -13,9 +13,11 @@
 
 @property (weak, nonatomic) IBOutlet UILabel *nameLabel;
 @property (weak, nonatomic) IBOutlet UITextView *informationLabel;
+@property (weak, nonatomic) IBOutlet UIImageView *myImage;
 
 
 @property (strong, nonatomic) Constellation *constellation;
+
 
 
 @end
