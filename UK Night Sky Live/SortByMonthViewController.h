@@ -11,6 +11,7 @@
 @interface SortByMonthViewController : UIViewController <UIPickerViewDataSource, UIPickerViewDelegate>
 
 @property (weak, nonatomic) IBOutlet UIPickerView *monthPicker;
+@property NSInteger selectedMonth;
 
 
 @end

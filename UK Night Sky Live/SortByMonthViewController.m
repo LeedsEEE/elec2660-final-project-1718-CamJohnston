@@ -26,6 +26,8 @@
     self.monthPicker.dataSource = self;
     self.monthPicker.delegate = self;
     
+    
+    
 }
 
 - (void)didReceiveMemoryWarning {
@@ -46,7 +48,9 @@
 }
 
 -(void)pickerView:(UIPickerView *)pickerView didSelectRow:(NSInteger)row inComponent:(NSInteger)component{
-    NSInteger selectedMonth = row;
+   self.selectedMonth = row;
+    
+    NSLog(@"Month is %ld", (long)self.selectedMonth);
     
 }
 /*

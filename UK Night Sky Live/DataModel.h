@@ -8,6 +8,7 @@
 
 #import <Foundation/Foundation.h>
 #import "Constellation.h"
+#import "SortByMonthViewController.h"
 
 @interface DataModel : NSObject
 
@@ -16,6 +17,8 @@
 @property (strong, nonatomic) NSString *currentConstellation;
 @property (strong, nonatomic) NSString *currentConstellation2;
 @property (strong, nonatomic) DataModel *internalData;
+@property (strong, nonatomic) SortByMonthViewController *monthData;
+
 
 
 @end

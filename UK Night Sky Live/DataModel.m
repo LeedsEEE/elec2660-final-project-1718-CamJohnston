@@ -17,6 +17,8 @@
         
         self.visibleConstellations = [NSMutableArray array];
         
+        
+        
         self.constellations = [NSMutableArray array];
         Constellation *orion = [[Constellation alloc] init];
         orion.constellationName = @"Orion";
@@ -27,7 +29,7 @@
         self.constellations = [NSMutableArray array];
         Constellation *cassiopeia = [[Constellation alloc] init];
         cassiopeia.constellationName = @"Cassiopeia";
-        cassiopeia.information = @"A constellation that forms a W shape in the night sky";
+        cassiopeia.information = @"A constellation that forms a W shape in the night sky fghqofb dhwjiv bdhjviodf wbvhjdfoa bvjhkfdoq vbhjdqkov bjdqkov hjfdakov bdfjwkvo dhabjvkls cbjkp er2hc8vp sbn,wghv78od ahfmwkv bf7r28 obrhe4j2vi b7482o vbdhwkv bry2uov gt4w7y vbhrwjovbr7y3w8 ov0gt4y2uvo bruwyov grwyuvo brwyuv ogrwyvu orbwvyuo2 gv782o gv yruwov byruwov gruwyov gruwyovg ruwyov gryuewov gryuewovbuy4w gv78eor2bvhjo42b vy8o 9gr4v78 rg4vhboyudaoxvby428o vgbyreuwovb yeuwogrwyuovbfrdwyuc";
         cassiopeia.monthsVisible = 0;
         cassiopeia.monthsVisibleArray = @[@1,@1,@1,@1,@1,@1,@1,@1,@1,@1,@1,@1];
         
@@ -42,6 +44,8 @@
         NSLog(@"CURRENT MONTH IS %ld", (long)CurrentMonth);
         NSNumber *testVisible = [orion.monthsVisibleArray objectAtIndex:0];
         NSLog(@"ARRAY VALUE 1 is %@", testVisible);
+        
+        
         
         NSArray *myConstellations;
         

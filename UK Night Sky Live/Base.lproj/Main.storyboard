@@ -1,28 +1,11 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="11201" systemVersion="16G29" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" colorMatched="YES" initialViewController="49e-Tb-3d3">
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="11201" systemVersion="16G29" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" colorMatched="YES" initialViewController="eQr-E5-hlj">
     <dependencies>
         <deployment identifier="iOS"/>
         <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="11161"/>
         <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
     </dependencies>
     <scenes>
-        <!--Sky Live-->
-        <scene sceneID="8ao-4n-L5l">
-            <objects>
-                <navigationController id="NUx-OM-TKK" sceneMemberID="viewController">
-                    <tabBarItem key="tabBarItem" title="Sky Live" id="ggt-1g-hIJ"/>
-                    <navigationBar key="navigationBar" contentMode="scaleToFill" id="dvb-gP-Dbd">
-                        <rect key="frame" x="0.0" y="0.0" width="375" height="44"/>
-                        <autoresizingMask key="autoresizingMask"/>
-                    </navigationBar>
-                    <connections>
-                        <segue destination="4Lp-a9-YIk" kind="relationship" relationship="rootViewController" id="XQG-QH-dNA"/>
-                    </connections>
-                </navigationController>
-                <placeholder placeholderIdentifier="IBFirstResponder" id="W33-io-Nyp" userLabel="First Responder" sceneMemberID="firstResponder"/>
-            </objects>
-            <point key="canvasLocation" x="142" y="-1014"/>
-        </scene>
         <!--Sort by Month-->
         <scene sceneID="C3n-db-WVX">
             <objects>
@@ -42,6 +25,9 @@
                             </pickerView>
                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="0Z8-SR-h6A">
                                 <state key="normal" title="Search"/>
+                                <connections>
+                                    <segue destination="Cz0-wn-mud" kind="show" id="jU2-bS-O9z"/>
+                                </connections>
                             </button>
                         </subviews>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
@@ -53,13 +39,14 @@
                         </constraints>
                     </view>
                     <tabBarItem key="tabBarItem" title="Sort by Month" id="VwX-cD-Ibe"/>
+                    <navigationItem key="navigationItem" id="2ef-Jf-1wW"/>
                     <connections>
                         <outlet property="monthPicker" destination="6f2-9s-wLJ" id="MtK-WO-div"/>
                     </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="XXe-EK-2gU" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="182" y="-286"/>
+            <point key="canvasLocation" x="825" y="4"/>
         </scene>
         <!--Item-->
         <scene sceneID="tmT-MF-I2H">
@@ -87,7 +74,7 @@
                                     </subviews>
                                 </tableViewCellContentView>
                                 <connections>
-                                    <segue destination="TLr-bT-gkX" kind="show" id="KCV-SH-a3E"/>
+                                    <segue destination="TLr-bT-gkX" kind="show" identifier="ShowConstellationDetails" id="KCV-SH-a3E"/>
                                 </connections>
                             </tableViewCell>
                         </prototypes>
@@ -103,10 +90,10 @@
             </objects>
             <point key="canvasLocation" x="953" y="-662"/>
         </scene>
-        <!--View Controller-->
+        <!--Detail View Controller-->
         <scene sceneID="12v-vq-3Fr">
             <objects>
-                <viewController id="TLr-bT-gkX" sceneMemberID="viewController">
+                <viewController id="TLr-bT-gkX" customClass="DetailViewController" sceneMemberID="viewController">
                     <layoutGuides>
                         <viewControllerLayoutGuide type="top" id="PYN-3r-hHA"/>
                         <viewControllerLayoutGuide type="bottom" id="tdS-zk-b0a"/>
@@ -120,39 +107,40 @@
                                 <nil key="textColor"/>
                                 <nil key="highlightedColor"/>
                             </label>
-                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" translatesAutoresizingMaskIntoConstraints="NO" id="W42-C4-qdl">
+                            <imageView userInteractionEnabled="NO" contentMode="center" horizontalHuggingPriority="251" verticalHuggingPriority="251" translatesAutoresizingMaskIntoConstraints="NO" id="W42-C4-qdl">
                                 <constraints>
                                     <constraint firstAttribute="width" constant="240" id="Prn-pz-N1J"/>
                                     <constraint firstAttribute="height" constant="128" id="b5s-Hp-SbD"/>
                                 </constraints>
                             </imageView>
-                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Label" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="GNT-qk-4SL">
-                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
-                                <nil key="textColor"/>
-                                <nil key="highlightedColor"/>
-                            </label>
-                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Label" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="5X6-es-zw0">
-                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
-                                <nil key="textColor"/>
-                                <nil key="highlightedColor"/>
-                            </label>
+                            <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" editable="NO" textAlignment="natural" translatesAutoresizingMaskIntoConstraints="NO" id="vdj-ag-SDQ">
+                                <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="128" id="JWQ-A3-jD3"/>
+                                    <constraint firstAttribute="width" constant="240" id="tcR-Dp-dSJ"/>
+                                </constraints>
+                                <fontDescription key="fontDescription" type="system" pointSize="14"/>
+                                <textInputTraits key="textInputTraits" autocapitalizationType="sentences"/>
+                            </textView>
                         </subviews>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                         <constraints>
-                            <constraint firstItem="5X6-es-zw0" firstAttribute="top" secondItem="GNT-qk-4SL" secondAttribute="bottom" constant="43" id="0Wz-j3-kyX"/>
                             <constraint firstItem="rUO-7Z-Cuh" firstAttribute="top" secondItem="PYN-3r-hHA" secondAttribute="bottom" constant="15" id="EG2-nC-0Dh"/>
-                            <constraint firstItem="5X6-es-zw0" firstAttribute="centerX" secondItem="MDv-g2-gLz" secondAttribute="centerX" id="R2v-XE-h6x"/>
-                            <constraint firstItem="GNT-qk-4SL" firstAttribute="centerX" secondItem="MDv-g2-gLz" secondAttribute="centerX" id="Rn3-Rd-sjt"/>
+                            <constraint firstItem="vdj-ag-SDQ" firstAttribute="top" secondItem="W42-C4-qdl" secondAttribute="bottom" constant="84" id="MKH-rm-u3h"/>
                             <constraint firstItem="W42-C4-qdl" firstAttribute="centerX" secondItem="MDv-g2-gLz" secondAttribute="centerX" id="beQ-DO-vfV"/>
-                            <constraint firstItem="GNT-qk-4SL" firstAttribute="top" secondItem="W42-C4-qdl" secondAttribute="bottom" constant="80" id="mmD-yP-ZRN"/>
                             <constraint firstItem="W42-C4-qdl" firstAttribute="top" secondItem="rUO-7Z-Cuh" secondAttribute="bottom" constant="25" id="o9Y-qi-3z1"/>
                             <constraint firstItem="rUO-7Z-Cuh" firstAttribute="centerX" secondItem="MDv-g2-gLz" secondAttribute="centerX" id="oZC-4c-PyN"/>
+                            <constraint firstItem="vdj-ag-SDQ" firstAttribute="centerX" secondItem="MDv-g2-gLz" secondAttribute="centerX" id="pav-Fc-JAD"/>
                         </constraints>
                     </view>
+                    <connections>
+                        <outlet property="informationLabel" destination="vdj-ag-SDQ" id="bMl-53-1Sl"/>
+                        <outlet property="nameLabel" destination="rUO-7Z-Cuh" id="JpU-qc-Mzm"/>
+                    </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="lls-wA-QLp" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="2048.8000000000002" y="-650.82458770614699"/>
+            <point key="canvasLocation" x="2620" y="-128.18590704647679"/>
         </scene>
         <!--Month Table View Controller-->
         <scene sceneID="ewh-jD-SEN">
@@ -193,25 +181,9 @@
                 </tableViewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="mXy-4H-H7Q" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="1918" y="86"/>
+            <point key="canvasLocation" x="1636" y="18"/>
         </scene>
-        <!--Navigation Controller-->
-        <scene sceneID="y2h-TC-dbU">
-            <objects>
-                <navigationController id="87J-Cd-Cyy" sceneMemberID="viewController">
-                    <navigationBar key="navigationBar" contentMode="scaleToFill" id="DAH-pJ-G1T">
-                        <rect key="frame" x="0.0" y="0.0" width="375" height="44"/>
-                        <autoresizingMask key="autoresizingMask"/>
-                    </navigationBar>
-                    <connections>
-                        <segue destination="Cz0-wn-mud" kind="relationship" relationship="rootViewController" id="Yj2-4g-xIM"/>
-                    </connections>
-                </navigationController>
-                <placeholder placeholderIdentifier="IBFirstResponder" id="uvF-HE-fhn" userLabel="First Responder" sceneMemberID="firstResponder"/>
-            </objects>
-            <point key="canvasLocation" x="953" y="0.0"/>
-        </scene>
-        <!--Sort By Constellation Table View Controller-->
+        <!--Item-->
         <scene sceneID="cKG-ar-piU">
             <objects>
                 <tableViewController id="1cb-md-AcJ" customClass="SortByConstellationTableViewController" sceneMemberID="viewController">
@@ -237,7 +209,7 @@
                                     </subviews>
                                 </tableViewCellContentView>
                                 <connections>
-                                    <segue destination="TLr-bT-gkX" kind="show" id="d66-tx-eix"/>
+                                    <segue destination="TLr-bT-gkX" kind="show" identifier="" id="d66-tx-eix"/>
                                 </connections>
                             </tableViewCell>
                         </prototypes>
@@ -246,33 +218,18 @@
                             <outlet property="delegate" destination="1cb-md-AcJ" id="qHl-gQ-yyg"/>
                         </connections>
                     </tableView>
+                    <tabBarItem key="tabBarItem" title="Item" id="NGH-eE-dMF"/>
                     <navigationItem key="navigationItem" id="2R7-Tk-dmX"/>
                 </tableViewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="gK1-bs-ifj" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="825" y="698"/>
-        </scene>
-        <!--Sort by Constellation-->
-        <scene sceneID="B2M-qw-hhB">
-            <objects>
-                <navigationController id="Dys-Xy-fYd" sceneMemberID="viewController">
-                    <tabBarItem key="tabBarItem" title="Sort by Constellation" id="p0B-YD-BSm"/>
-                    <navigationBar key="navigationBar" contentMode="scaleToFill" id="HRq-XS-yF0">
-                        <rect key="frame" x="0.0" y="0.0" width="375" height="44"/>
-                        <autoresizingMask key="autoresizingMask"/>
-                    </navigationBar>
-                    <connections>
-                        <segue destination="1cb-md-AcJ" kind="relationship" relationship="rootViewController" id="LRJ-nl-9jv"/>
-                    </connections>
-                </navigationController>
-                <placeholder placeholderIdentifier="IBFirstResponder" id="3XM-gC-0zr" userLabel="First Responder" sceneMemberID="firstResponder"/>
-            </objects>
-            <point key="canvasLocation" x="-327" y="421"/>
+            <point key="canvasLocation" x="1222" y="903"/>
         </scene>
         <!--Tab Bar Controller-->
         <scene sceneID="yl2-sM-qoP">
             <objects>
                 <tabBarController id="49e-Tb-3d3" sceneMemberID="viewController">
+                    <navigationItem key="navigationItem" id="g5X-fS-5Ga"/>
                     <nil key="simulatedBottomBarMetrics"/>
                     <tabBar key="tabBar" contentMode="scaleToFill" id="W28-zg-YXA">
                         <rect key="frame" x="0.0" y="975" width="768" height="49"/>
@@ -280,14 +237,30 @@
                         <color key="backgroundColor" red="0.0" green="0.0" blue="0.0" alpha="0.0" colorSpace="custom" customColorSpace="sRGB"/>
                     </tabBar>
                     <connections>
-                        <segue destination="NUx-OM-TKK" kind="relationship" relationship="viewControllers" id="Lva-eI-exi"/>
-                        <segue destination="Dys-Xy-fYd" kind="relationship" relationship="viewControllers" id="GR1-dw-Bdc"/>
-                        <segue destination="M67-db-d9K" kind="relationship" relationship="viewControllers" id="EYl-rT-OWf"/>
+                        <segue destination="4Lp-a9-YIk" kind="relationship" relationship="viewControllers" id="sTN-bM-rAT"/>
+                        <segue destination="M67-db-d9K" kind="relationship" relationship="viewControllers" id="eHf-F7-hqK"/>
+                        <segue destination="1cb-md-AcJ" kind="relationship" relationship="viewControllers" id="sCQ-GI-UbA"/>
                     </connections>
                 </tabBarController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="HuB-VB-40B" sceneMemberID="firstResponder"/>
             </objects>
             <point key="canvasLocation" x="-839" y="-305"/>
+        </scene>
+        <!--Navigation Controller-->
+        <scene sceneID="dc9-Ms-47X">
+            <objects>
+                <navigationController id="eQr-E5-hlj" sceneMemberID="viewController">
+                    <navigationBar key="navigationBar" contentMode="scaleToFill" id="cpg-Wu-KRL">
+                        <rect key="frame" x="0.0" y="0.0" width="375" height="44"/>
+                        <autoresizingMask key="autoresizingMask"/>
+                    </navigationBar>
+                    <connections>
+                        <segue destination="49e-Tb-3d3" kind="relationship" relationship="rootViewController" id="NH4-nM-g9j"/>
+                    </connections>
+                </navigationController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="obE-aU-5FN" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="-1698" y="-322"/>
         </scene>
     </scenes>
     <inferredMetricsTieBreakers>
