@@ -25,6 +25,7 @@
         orion.information = @"A constellation notable for it's recognisable three stars that make up the belt";
         orion.monthsVisible = 2040;
         orion.monthsVisibleArray = @[@0,@1,@1,@1,@1,@1,@1,@1,@1,@0,@0,@0];
+        orion.imageID = @"Orion.jpg";
         
         self.constellations = [NSMutableArray array];
         Constellation *cassiopeia = [[Constellation alloc] init];
@@ -32,6 +33,7 @@
         cassiopeia.information = @"A constellation that forms a W shape in the night sky fghqofb dhwjiv bdhjviodf wbvhjdfoa bvjhkfdoq vbhjdqkov bjdqkov hjfdakov bdfjwkvo dhabjvkls cbjkp er2hc8vp sbn,wghv78od ahfmwkv bf7r28 obrhe4j2vi b7482o vbdhwkv bry2uov gt4w7y vbhrwjovbr7y3w8 ov0gt4y2uvo bruwyov grwyuvo brwyuv ogrwyvu orbwvyuo2 gv782o gv yruwov byruwov gruwyov gruwyovg ruwyov gryuewov gryuewovbuy4w gv78eor2bvhjo42b vy8o 9gr4v78 rg4vhboyudaoxvby428o vgbyreuwovb yeuwogrwyuovbfrdwyuc";
         cassiopeia.monthsVisible = 0;
         cassiopeia.monthsVisibleArray = @[@1,@1,@1,@1,@1,@1,@1,@1,@1,@1,@1,@1];
+        cassiopeia.imageID = @"am54960f89.jpg";
         
         NSInteger CurrentMonth;
         

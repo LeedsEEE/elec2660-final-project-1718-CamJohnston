@@ -20,6 +20,7 @@
     
     self.nameLabel.text = self.constellation.constellationName;
     self.informationLabel.text = self.constellation.information;
+    self.myImage.image = [UIImage imageNamed:self.constellation.imageID];
 }
 
 - (void)didReceiveMemoryWarning {

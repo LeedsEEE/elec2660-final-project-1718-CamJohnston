@@ -16,6 +16,7 @@
 @property (weak, nonatomic) IBOutlet UIImageView *myImage;
 
 
+
 @property (strong, nonatomic) Constellation *constellation;
 
 
