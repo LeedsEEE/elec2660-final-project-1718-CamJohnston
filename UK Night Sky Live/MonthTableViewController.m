@@ -17,6 +17,10 @@
 - (void)viewDidLoad {
     [super viewDidLoad];
     
+    self.dataByMonth = [[DataModel alloc] init];
+    
+    [self.dataByMonth Bloddymonth];
+    
     // Uncomment the following line to preserve selection between presentations.
     // self.clearsSelectionOnViewWillAppear = NO;
     
@@ -29,6 +33,8 @@
     // Dispose of any resources that can be recreated.
 }
 
+
+
 #pragma mark - Table view data source
 
 - (NSInteger)numberOfSectionsInTableView:(UITableView *)tableView {
@@ -38,7 +44,15 @@
 
 - (NSInteger)tableView:(UITableView *)tableView numberOfRowsInSection:(NSInteger)section {
 
-    return 5;
+    NSInteger numberOfRows;
+    
+    if (section == 0) {
+        numberOfRows = self.dataByMonth.pickedConstellations.count;
+        
+        NSLog(@"TABLE VIEW TRIGGERED");
+    }
+    
+    return numberOfRows;
 }
 
 
@@ -46,6 +60,14 @@
     UITableViewCell *cell = [tableView dequeueReusableCellWithIdentifier:@"ConstellationCell" forIndexPath:indexPath];
     
     // Configure the cell...
+    
+    if (indexPath.section == 0) {
+        
+        Constellation *tempConstellation = [self.dataByMonth.pickedConstellations objectAtIndex:indexPath.row];
+        
+        cell.textLabel.text = tempConstellation.constellationName;
+        
+    }
     
     return cell;
 }

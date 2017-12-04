@@ -19,6 +19,8 @@
     
     self.dataByConstellation = [[DataModel alloc] init];
     
+    [self.dataByConstellation Bloddymonth];
+    
     // Uncomment the following line to preserve selection between presentations.
     // self.clearsSelectionOnViewWillAppear = NO;
     
@@ -28,6 +30,7 @@
 
 - (void)didReceiveMemoryWarning {
     [super didReceiveMemoryWarning];
+    
     // Dispose of any resources that can be recreated.
 }
 

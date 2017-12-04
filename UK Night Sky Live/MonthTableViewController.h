@@ -7,9 +7,11 @@
 //
 
 #import <UIKit/UIKit.h>
+#import "DataModel.h"
 
 @interface MonthTableViewController : UITableViewController
 
+@property (strong, nonatomic) DataModel *dataByMonth;
 
 
 @end

@@ -7,11 +7,12 @@
 //
 
 #import <UIKit/UIKit.h>
-
+#import "DataModel.h"
+@class DataModel;
 @interface SortByMonthViewController : UIViewController <UIPickerViewDataSource, UIPickerViewDelegate>
 
 @property (weak, nonatomic) IBOutlet UIPickerView *monthPicker;
 @property NSInteger selectedMonth;
-
+@property (nonatomic, strong) DataModel *dataByMonth;
 
 @end

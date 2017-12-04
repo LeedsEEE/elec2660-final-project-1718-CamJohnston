@@ -21,7 +21,7 @@
 - (void)viewDidLoad {
     [super viewDidLoad];
     // Do any additional setup after loading the view.
-    
+    self.dataByMonth = [[DataModel alloc] init];
     months = @[@"January",@"February",@"March",@"April",@"May",@"June",@"July",@"August",@"September",@"October",@"November",@"December"];
     self.monthPicker.dataSource = self;
     self.monthPicker.delegate = self;
@@ -40,17 +40,23 @@
 }
 
 -(NSInteger)pickerView:(UIPickerView *)pickerView numberOfRowsInComponent:(NSInteger)component{
+    
     return months.count;
 }
 
 -(NSString *)pickerView:(UIPickerView *)pickerView titleForRow:(NSInteger)row forComponent:(NSInteger)component{
+    
     return months[row];
 }
 
 -(void)pickerView:(UIPickerView *)pickerView didSelectRow:(NSInteger)row inComponent:(NSInteger)component{
    self.selectedMonth = row;
+    self.dataByMonth.pickerMonth = self.selectedMonth;
+    [self.dataByMonth Bloddymonth];
+    //self.dataByMonth = [[DataModel alloc] init];
     
-    NSLog(@"Month is %ld", (long)self.selectedMonth);
+    NSLog(@"THE BLOODY MONTH IS %ld", (long)self.selectedMonth);
+    
     
 }
 /*

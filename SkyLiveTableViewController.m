@@ -20,6 +20,8 @@
     
     self.data = [[DataModel alloc] init];
     
+    [self.data Bloddymonth];
+    
     // Uncomment the following line to preserve selection between presentations.
     // self.clearsSelectionOnViewWillAppear = NO;
     
@@ -44,13 +46,13 @@
 
 - (NSInteger)tableView:(UITableView *)tableView numberOfRowsInSection:(NSInteger)section {
     
-    NSInteger numberofRows;
+    NSInteger numberOfRows;
     
     if (section == 0) {
-        numberofRows = self.data.visibleConstellations.count;
+        numberOfRows = self.data.visibleConstellations.count;
     }
 
-    return numberofRows;
+    return numberOfRows;
 }
 
 
