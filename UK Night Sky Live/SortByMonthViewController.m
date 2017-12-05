@@ -51,11 +51,14 @@
 
 -(void)pickerView:(UIPickerView *)pickerView didSelectRow:(NSInteger)row inComponent:(NSInteger)component{
    self.selectedMonth = row;
+    
     self.dataByMonth.pickerMonth = self.selectedMonth;
-    [self.dataByMonth Bloddymonth];
+    //[self.dataByMonth Bloddymonth];
     //self.dataByMonth = [[DataModel alloc] init];
     
     NSLog(@"THE BLOODY MONTH IS %ld", (long)self.selectedMonth);
+     
+    
     
     
 }
@@ -69,4 +72,13 @@
 }
 */
 
+- (IBAction)searchButton:(UIButton *)sender {
+    
+    NSUserDefaults *defaults = [NSUserDefaults standardUserDefaults];
+    [defaults setInteger:self.dataByMonth.pickerMonth forKey:@"PickedMonth"];
+    [defaults synchronize];
+    
+    [self.dataByMonth Bloddymonth];
+    
+}
 @end

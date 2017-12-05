@@ -120,7 +120,7 @@
     self.constellations = [NSMutableArray array];
     Constellation *cassiopeia = [[Constellation alloc] init];
     cassiopeia.constellationName = @"Cassiopeia";
-    cassiopeia.information = @"A constellation that forms a W shape in the night sky fghqofb dhwjiv bdhjviodf wbvhjdfoa bvjhkfdoq vbhjdqkov bjdqkov hjfdakov bdfjwkvo dhabjvkls cbjkp er2hc8vp sbn,wghv78od ahfmwkv bf7r28 obrhe4j2vi b7482o vbdhwkv bry2uov gt4w7y vbhrwjovbr7y3w8 ov0gt4y2uvo bruwyov grwyuvo brwyuv ogrwyvu orbwvyuo2 gv782o gv yruwov byruwov gruwyov gruwyovg ruwyov gryuewov gryuewovbuy4w gv78eor2bvhjo42b vy8o 9gr4v78 rg4vhboyudaoxvby428o vgbyreuwovb yeuwogrwyuovbfrdwyuc";
+    cassiopeia.information = @"A constellation that forms a W shape in the night sky";
     cassiopeia.monthsVisible = 0;
     cassiopeia.monthsVisibleArray = @[@1,@1,@1,@1,@1,@1,@1,@1,@1,@1,@1,@1];
     cassiopeia.imageID = @"am54960f89.jpg";
@@ -139,8 +139,13 @@
     
     //self.pickerMonth = self.monthData.selectedMonth;
     
-    NSLog(@"ARRAY VALUE 1 is %ld", self.pickerMonth);
-    NSLog(@"THE BLOODY (the remix) MONTH IS %ld", (long)self.monthData.selectedMonth);
+    NSUserDefaults *defaults = [NSUserDefaults standardUserDefaults];
+    self.pickerMonth = [defaults integerForKey:@"PickedMonth"];
+    
+    NSLog(@"Picked Month Test 1 is %ld", self.pickerMonth);
+    NSLog(@"Picked Month Test 2 IS %ld", (long)self.monthData.selectedMonth);
+    
+    
     
     
     
@@ -203,6 +208,8 @@
             [self.pickedConstellations addObject:checkingConstellation];
             
         }
+        
+        //[self.constellations addObject:checkingConstellation];
         
         NSLog(@"%ld", (long)i);
         
