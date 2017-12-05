@@ -170,7 +170,7 @@
                                     </subviews>
                                 </tableViewCellContentView>
                                 <connections>
-                                    <segue destination="TLr-bT-gkX" kind="show" id="rfN-Ph-o1C"/>
+                                    <segue destination="TLr-bT-gkX" kind="show" identifier="ShowConstellationDetailsMonth" id="rfN-Ph-o1C"/>
                                 </connections>
                             </tableViewCell>
                         </prototypes>
@@ -211,7 +211,7 @@
                                     </subviews>
                                 </tableViewCellContentView>
                                 <connections>
-                                    <segue destination="TLr-bT-gkX" kind="show" identifier="" id="d66-tx-eix"/>
+                                    <segue destination="TLr-bT-gkX" kind="show" identifier="ShowConstellationDetailsMonthAll" id="d66-tx-eix"/>
                                 </connections>
                             </tableViewCell>
                         </prototypes>
@@ -266,6 +266,6 @@
         </scene>
     </scenes>
     <inferredMetricsTieBreakers>
-        <segue reference="KCV-SH-a3E"/>
+        <segue reference="rfN-Ph-o1C"/>
     </inferredMetricsTieBreakers>
 </document>
