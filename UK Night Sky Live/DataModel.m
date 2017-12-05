@@ -173,6 +173,14 @@
     canisM.monthsVisibleArray = @[@1,@0,@0,@0,@0,@0,@0,@0,@0,@0,@0,@1];
     canisM.imageID = @"CanisMajorCC.jpg";
     
+    self.constellations = [NSMutableArray array];
+    Constellation *aries = [[Constellation alloc] init];
+    aries.constellationName = @"Aries";
+    aries.information = @"The Ram - a constellation of the zodiac and inhabits the part of night sky responsibke for the Arietid meteor shower.";
+    aries.monthsVisible = 2040;
+    aries.monthsVisibleArray = @[@1,@1,@0,@0,@0,@0,@1,@1,@1,@1,@1,@1];
+    aries.imageID = @"AriesCC.jpg";
+    
     
     self.monthData = [[SortByMonthViewController alloc] init];
     
@@ -213,13 +221,14 @@
     [self.constellations addObject:ursaM];
     [self.constellations addObject:aquila];
     [self.constellations addObject:canisM];
+    [self.constellations addObject:aries];
     
     
     
     NSInteger i = 0;
     
     
-    while (i <= 7) {
+    while (i <= 8) {
         
         
         
