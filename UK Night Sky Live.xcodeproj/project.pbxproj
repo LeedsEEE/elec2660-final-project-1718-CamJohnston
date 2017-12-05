@@ -12,8 +12,16 @@
 		B65BFD0C1FD58E90002B4D6D /* MonthTableViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = B65BFD0B1FD58E90002B4D6D /* MonthTableViewController.m */; };
 		B65BFD0F1FD59222002B4D6D /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = B65BFD0D1FD59222002B4D6D /* Main.storyboard */; };
 		B65BFD121FD5A703002B4D6D /* DetailViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = B65BFD111FD5A703002B4D6D /* DetailViewController.m */; };
-		B65BFD141FD5B3A3002B4D6D /* Orion.jpg in Resources */ = {isa = PBXBuildFile; fileRef = B65BFD131FD5B3A3002B4D6D /* Orion.jpg */; };
-		B65BFD161FD5B405002B4D6D /* am54960f89.jpg in Resources */ = {isa = PBXBuildFile; fileRef = B65BFD151FD5B405002B4D6D /* am54960f89.jpg */; };
+		B66E65AA1FD700A900300079 /* CygnusCC.jpg in Resources */ = {isa = PBXBuildFile; fileRef = B66E65A91FD700A900300079 /* CygnusCC.jpg */; };
+		B66E65AC1FD7012100300079 /* OrionCC.jpg in Resources */ = {isa = PBXBuildFile; fileRef = B66E65AB1FD7012100300079 /* OrionCC.jpg */; };
+		B66E65B01FD7017500300079 /* AndromedaCC.jpg in Resources */ = {isa = PBXBuildFile; fileRef = B66E65AF1FD7017500300079 /* AndromedaCC.jpg */; };
+		B66E65B21FD7019F00300079 /* CassiopeiaCC.jpg in Resources */ = {isa = PBXBuildFile; fileRef = B66E65B11FD7019F00300079 /* CassiopeiaCC.jpg */; };
+		B66E65B41FD701F500300079 /* PegasusCC.jpg in Resources */ = {isa = PBXBuildFile; fileRef = B66E65B31FD701F500300079 /* PegasusCC.jpg */; };
+		B66E65B61FD7030600300079 /* UrsaMajorCC.jpg in Resources */ = {isa = PBXBuildFile; fileRef = B66E65B51FD7030600300079 /* UrsaMajorCC.jpg */; };
+		B66E65B81FD7059A00300079 /* AquilaCC.jpg in Resources */ = {isa = PBXBuildFile; fileRef = B66E65B71FD7059A00300079 /* AquilaCC.jpg */; };
+		B66E65BA1FD70B6300300079 /* CanisMajorCC.jpg in Resources */ = {isa = PBXBuildFile; fileRef = B66E65B91FD70B6300300079 /* CanisMajorCC.jpg */; };
+		B66E65BC1FD70F6000300079 /* M31_LRGB_AP155_U16M_web.jpg in Resources */ = {isa = PBXBuildFile; fileRef = B66E65BB1FD70F6000300079 /* M31_LRGB_AP155_U16M_web.jpg */; };
+		B66E65BE1FD718F600300079 /* thedipper_20816_lg.gif in Resources */ = {isa = PBXBuildFile; fileRef = B66E65BD1FD718F600300079 /* thedipper_20816_lg.gif */; };
 		B6E08CB41FC3015B00C71EDC /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = B6E08CB31FC3015B00C71EDC /* main.m */; };
 		B6E08CB71FC3015B00C71EDC /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = B6E08CB61FC3015B00C71EDC /* AppDelegate.m */; };
 		B6E08CC21FC3015B00C71EDC /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = B6E08CC11FC3015B00C71EDC /* Assets.xcassets */; };
@@ -52,8 +60,16 @@
 		B65BFD0E1FD59222002B4D6D /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		B65BFD101FD5A703002B4D6D /* DetailViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DetailViewController.h; sourceTree = "<group>"; };
 		B65BFD111FD5A703002B4D6D /* DetailViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DetailViewController.m; sourceTree = "<group>"; };
-		B65BFD131FD5B3A3002B4D6D /* Orion.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = Orion.jpg; sourceTree = "<group>"; };
-		B65BFD151FD5B405002B4D6D /* am54960f89.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = am54960f89.jpg; sourceTree = "<group>"; };
+		B66E65A91FD700A900300079 /* CygnusCC.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = CygnusCC.jpg; sourceTree = "<group>"; };
+		B66E65AB1FD7012100300079 /* OrionCC.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = OrionCC.jpg; sourceTree = "<group>"; };
+		B66E65AF1FD7017500300079 /* AndromedaCC.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = AndromedaCC.jpg; sourceTree = "<group>"; };
+		B66E65B11FD7019F00300079 /* CassiopeiaCC.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = CassiopeiaCC.jpg; sourceTree = "<group>"; };
+		B66E65B31FD701F500300079 /* PegasusCC.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = PegasusCC.jpg; sourceTree = "<group>"; };
+		B66E65B51FD7030600300079 /* UrsaMajorCC.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = UrsaMajorCC.jpg; sourceTree = "<group>"; };
+		B66E65B71FD7059A00300079 /* AquilaCC.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = AquilaCC.jpg; sourceTree = "<group>"; };
+		B66E65B91FD70B6300300079 /* CanisMajorCC.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = CanisMajorCC.jpg; sourceTree = "<group>"; };
+		B66E65BB1FD70F6000300079 /* M31_LRGB_AP155_U16M_web.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = M31_LRGB_AP155_U16M_web.jpg; sourceTree = "<group>"; };
+		B66E65BD1FD718F600300079 /* thedipper_20816_lg.gif */ = {isa = PBXFileReference; lastKnownFileType = image.gif; path = thedipper_20816_lg.gif; sourceTree = "<group>"; };
 		B6E08CAF1FC3015B00C71EDC /* UK Night Sky Live.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "UK Night Sky Live.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		B6E08CB31FC3015B00C71EDC /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		B6E08CB51FC3015B00C71EDC /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
@@ -143,8 +159,16 @@
 				B6E08CC11FC3015B00C71EDC /* Assets.xcassets */,
 				B6E08CC31FC3015B00C71EDC /* LaunchScreen.storyboard */,
 				B6E08CC61FC3015B00C71EDC /* Info.plist */,
-				B65BFD131FD5B3A3002B4D6D /* Orion.jpg */,
-				B65BFD151FD5B405002B4D6D /* am54960f89.jpg */,
+				B66E65BB1FD70F6000300079 /* M31_LRGB_AP155_U16M_web.jpg */,
+				B66E65BD1FD718F600300079 /* thedipper_20816_lg.gif */,
+				B66E65AB1FD7012100300079 /* OrionCC.jpg */,
+				B66E65B11FD7019F00300079 /* CassiopeiaCC.jpg */,
+				B66E65AF1FD7017500300079 /* AndromedaCC.jpg */,
+				B66E65B31FD701F500300079 /* PegasusCC.jpg */,
+				B66E65A91FD700A900300079 /* CygnusCC.jpg */,
+				B66E65B51FD7030600300079 /* UrsaMajorCC.jpg */,
+				B66E65B71FD7059A00300079 /* AquilaCC.jpg */,
+				B66E65B91FD70B6300300079 /* CanisMajorCC.jpg */,
 				B6E08CB21FC3015B00C71EDC /* Supporting Files */,
 			);
 			path = "UK Night Sky Live";
@@ -282,11 +306,19 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				B66E65BA1FD70B6300300079 /* CanisMajorCC.jpg in Resources */,
 				B65BFD0F1FD59222002B4D6D /* Main.storyboard in Resources */,
+				B66E65BE1FD718F600300079 /* thedipper_20816_lg.gif in Resources */,
 				B6E08CC51FC3015B00C71EDC /* LaunchScreen.storyboard in Resources */,
+				B66E65B81FD7059A00300079 /* AquilaCC.jpg in Resources */,
+				B66E65B21FD7019F00300079 /* CassiopeiaCC.jpg in Resources */,
+				B66E65B61FD7030600300079 /* UrsaMajorCC.jpg in Resources */,
+				B66E65AA1FD700A900300079 /* CygnusCC.jpg in Resources */,
+				B66E65AC1FD7012100300079 /* OrionCC.jpg in Resources */,
 				B6E08CC21FC3015B00C71EDC /* Assets.xcassets in Resources */,
-				B65BFD161FD5B405002B4D6D /* am54960f89.jpg in Resources */,
-				B65BFD141FD5B3A3002B4D6D /* Orion.jpg in Resources */,
+				B66E65BC1FD70F6000300079 /* M31_LRGB_AP155_U16M_web.jpg in Resources */,
+				B66E65B01FD7017500300079 /* AndromedaCC.jpg in Resources */,
+				B66E65B41FD701F500300079 /* PegasusCC.jpg in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
