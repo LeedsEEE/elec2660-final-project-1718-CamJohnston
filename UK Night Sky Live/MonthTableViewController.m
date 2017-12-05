@@ -19,7 +19,7 @@
     
     self.dataByMonth = [[DataModel alloc] init];
     
-    [self.dataByMonth Bloddymonth];
+    [self.dataByMonth arrayCreator];
     
     // Uncomment the following line to preserve selection between presentations.
     // self.clearsSelectionOnViewWillAppear = NO;

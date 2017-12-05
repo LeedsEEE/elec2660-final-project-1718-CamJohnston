@@ -21,7 +21,7 @@
 @property (strong, nonatomic) SortByMonthViewController *monthData;
 @property NSInteger pickerMonth;
 
--(void) Bloddymonth;
+-(void) arrayCreator;
 
 
 @end

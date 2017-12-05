@@ -19,7 +19,7 @@
     
     self.dataByConstellation = [[DataModel alloc] init];
     
-    [self.dataByConstellation Bloddymonth];
+    [self.dataByConstellation arrayCreator];
     
     // Uncomment the following line to preserve selection between presentations.
     // self.clearsSelectionOnViewWillAppear = NO;

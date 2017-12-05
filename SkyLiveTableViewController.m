@@ -20,7 +20,7 @@
     
     self.data = [[DataModel alloc] init];
     
-    [self.data Bloddymonth];
+    [self.data arrayCreator];
     
     // Uncomment the following line to preserve selection between presentations.
     // self.clearsSelectionOnViewWillAppear = NO;

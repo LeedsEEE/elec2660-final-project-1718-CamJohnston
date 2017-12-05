@@ -78,7 +78,7 @@
     [defaults setInteger:self.dataByMonth.pickerMonth forKey:@"PickedMonth"];
     [defaults synchronize];     //http://www.ios-blog.co.uk/tutorials/objective-c/storing-data-with-nsuserdefaults/
     
-    [self.dataByMonth Bloddymonth];
+    [self.dataByMonth arrayCreator];
     
 }
 
