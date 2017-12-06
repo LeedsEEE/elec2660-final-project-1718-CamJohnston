@@ -33,6 +33,8 @@
     
     self.monthData = [[SortByMonthViewController alloc] init];
     
+#pragma my constellation data - 22 entries
+    
     self.constellations = [NSMutableArray array];
     Constellation *orion = [[Constellation alloc] init];
     orion.constellationName = @"Orion";
@@ -322,6 +324,8 @@
         
         //Loads either a 0 or a 1 on to isItVisible from the monthsVisibleArray of the element of the current month
         
+#pragma mark - Current Month checking
+        
         NSNumber *isItVisible = [checkingConstellation.monthsVisibleArray objectAtIndex:position];
         
         NSLog(@"VISIBILITY CHECK %@", isItVisible);
@@ -333,6 +337,8 @@
             [self.visibleConstellations addObject:checkingConstellation];
             
         }
+        
+#pragma mark - Selected Month checking
         
         NSInteger pickedPosition = self.pickerMonth;
         

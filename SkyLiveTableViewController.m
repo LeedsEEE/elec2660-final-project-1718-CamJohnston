@@ -64,6 +64,8 @@
     if(indexPath.section == 0){
         Constellation *tempConstellation = [self.data.visibleConstellations objectAtIndex:indexPath.row];
         
+        //The Name of the current constellation is sent to the table view cell
+        
         cell.textLabel.text = tempConstellation.constellationName;
         
     }

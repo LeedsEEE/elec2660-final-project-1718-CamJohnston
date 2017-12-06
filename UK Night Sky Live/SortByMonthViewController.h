@@ -15,7 +15,7 @@
 @property NSInteger selectedMonth;
 @property (nonatomic, strong) DataModel *dataByMonth;
 
-
+//Search button method
 - (IBAction)searchButton:(UIButton *)sender;
 
 

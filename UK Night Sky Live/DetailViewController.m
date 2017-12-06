@@ -16,16 +16,24 @@
 
 - (void)viewDidLoad {
     [super viewDidLoad];
+    
     // Do any additional setup after loading the view.
+    
+    //takes the constellation data and displays it in the detail view by loading the constellations name and information
     
     self.nameLabel.text = self.constellation.constellationName;
     self.informationLabel.text = self.constellation.information;
+    
+    //Checks the constellation's image ID and loads the coresponding jpg with the same name
+    
     self.myImage.image = [UIImage imageNamed:self.constellation.imageID];
 }
 
 - (void)didReceiveMemoryWarning {
     [super didReceiveMemoryWarning];
+    
     // Dispose of any resources that can be recreated.
+    
 }
 
 /*
