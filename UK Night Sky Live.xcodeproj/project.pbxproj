@@ -7,6 +7,8 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		B61C0EF21FD881E3005716F3 /* bigdipper2-512.png in Resources */ = {isa = PBXBuildFile; fileRef = B61C0EF11FD881E3005716F3 /* bigdipper2-512.png */; };
+		B61C0EF41FD883FF005716F3 /* imageedit_1_8272234614.png in Resources */ = {isa = PBXBuildFile; fileRef = B61C0EF31FD883FF005716F3 /* imageedit_1_8272234614.png */; };
 		B65BFD061FD57A71002B4D6D /* SortByConstellationTableViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = B65BFD051FD57A71002B4D6D /* SortByConstellationTableViewController.m */; };
 		B65BFD091FD58916002B4D6D /* SortByMonthViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = B65BFD081FD58916002B4D6D /* SortByMonthViewController.m */; };
 		B65BFD0C1FD58E90002B4D6D /* MonthTableViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = B65BFD0B1FD58E90002B4D6D /* MonthTableViewController.m */; };
@@ -71,6 +73,8 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		B61C0EF11FD881E3005716F3 /* bigdipper2-512.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "bigdipper2-512.png"; sourceTree = "<group>"; };
+		B61C0EF31FD883FF005716F3 /* imageedit_1_8272234614.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = imageedit_1_8272234614.png; sourceTree = "<group>"; };
 		B65BFD041FD57A71002B4D6D /* SortByConstellationTableViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SortByConstellationTableViewController.h; sourceTree = "<group>"; };
 		B65BFD051FD57A71002B4D6D /* SortByConstellationTableViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SortByConstellationTableViewController.m; sourceTree = "<group>"; };
 		B65BFD071FD58916002B4D6D /* SortByMonthViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SortByMonthViewController.h; sourceTree = "<group>"; };
@@ -229,6 +233,8 @@
 				B6ED1A8A1FD862590074D7AB /* Icon-40.png */,
 				B6ED1A941FD868730074D7AB /* Icon-32.png */,
 				B6ED1A961FD869360074D7AB /* Calender.png */,
+				B61C0EF11FD881E3005716F3 /* bigdipper2-512.png */,
+				B61C0EF31FD883FF005716F3 /* imageedit_1_8272234614.png */,
 				B6E08CB21FC3015B00C71EDC /* Supporting Files */,
 			);
 			path = "UK Night Sky Live";
@@ -370,10 +376,12 @@
 				B6ED1A831FD85ED30074D7AB /* UrsaMinorCC.jpg in Resources */,
 				B6ED1A951FD868730074D7AB /* Icon-32.png in Resources */,
 				B6ED1A771FD85E4F0074D7AB /* LibraCC.jpg in Resources */,
+				B61C0EF21FD881E3005716F3 /* bigdipper2-512.png in Resources */,
 				B65BFD0F1FD59222002B4D6D /* Main.storyboard in Resources */,
 				B66E65C21FD71E4F00300079 /* TaurusCC.jpg in Resources */,
 				B66E65C41FD725A800300079 /* constellation.png in Resources */,
 				B66E65BE1FD718F600300079 /* thedipper_20816_lg.gif in Resources */,
+				B61C0EF41FD883FF005716F3 /* imageedit_1_8272234614.png in Resources */,
 				B6E08CC51FC3015B00C71EDC /* LaunchScreen.storyboard in Resources */,
 				B66E65C01FD71C2E00300079 /* AriesCC.jpg in Resources */,
 				B66E65B81FD7059A00300079 /* AquilaCC.jpg in Resources */,

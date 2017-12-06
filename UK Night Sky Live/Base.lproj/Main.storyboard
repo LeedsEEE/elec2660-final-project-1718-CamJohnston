@@ -111,7 +111,16 @@
                             <outlet property="delegate" destination="4Lp-a9-YIk" id="SPI-Wq-g7T"/>
                         </connections>
                     </tableView>
-                    <tabBarItem key="tabBarItem" title="Sky Live" image="Icon-40.png" id="iuB-A3-O0M"/>
+                    <tabBarItem key="tabBarItem" title="Sky Live" image="Icon-40.png" id="iuB-A3-O0M">
+                        <userDefinedRuntimeAttributes>
+                            <userDefinedRuntimeAttribute type="color" keyPath="tintColor">
+                                <color key="value" red="0.99929720163345337" green="0.0057987147010862827" blue="0.45346993207931519" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                            </userDefinedRuntimeAttribute>
+                            <userDefinedRuntimeAttribute type="color" keyPath="unselectedItemTintColor">
+                                <color key="value" white="0.0" alpha="1" colorSpace="calibratedWhite"/>
+                            </userDefinedRuntimeAttribute>
+                        </userDefinedRuntimeAttributes>
+                    </tabBarItem>
                     <navigationItem key="navigationItem" id="qzs-2P-EKL">
                         <nil key="title"/>
                     </navigationItem>
@@ -240,6 +249,13 @@
                             <nil key="textColor"/>
                             <color key="highlightedColor" red="1" green="0.822925974585623" blue="0.8458042947842781" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                         </label>
+                        <label key="tableFooterView" opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Project by Cameron Johnston" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" id="8rz-Nj-qy8">
+                            <rect key="frame" x="0.0" y="180" width="375" height="44"/>
+                            <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                            <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                            <nil key="textColor"/>
+                            <nil key="highlightedColor"/>
+                        </label>
                         <prototypes>
                             <tableViewCell clipsSubviews="YES" contentMode="scaleToFill" selectionStyle="default" indentationWidth="10" reuseIdentifier="ConstellationCell" textLabel="Wwn-3F-HrK" imageView="Qe0-Ja-6hs" style="IBUITableViewCellStyleDefault" id="sNo-x4-Ra9">
                                 <rect key="frame" x="0.0" y="136" width="375" height="44"/>
@@ -288,7 +304,18 @@
                         <rect key="frame" x="0.0" y="975" width="768" height="49"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" flexibleMinY="YES"/>
                         <color key="backgroundColor" red="0.0" green="0.0" blue="0.0" alpha="0.0" colorSpace="custom" customColorSpace="sRGB"/>
+                        <color key="selectedImageTintColor" red="1" green="0.0" blue="0.45159254160000001" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                        <userDefinedRuntimeAttributes>
+                            <userDefinedRuntimeAttribute type="color" keyPath="keyPath">
+                                <color key="value" red="0.99930673837661743" green="0.0" blue="0.4493444561958313" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                            </userDefinedRuntimeAttribute>
+                        </userDefinedRuntimeAttributes>
                     </tabBar>
+                    <userDefinedRuntimeAttributes>
+                        <userDefinedRuntimeAttribute type="color" keyPath="keyPath">
+                            <color key="value" red="0.99929720163345337" green="0.0057987147010862827" blue="0.45346993207931519" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                        </userDefinedRuntimeAttribute>
+                    </userDefinedRuntimeAttributes>
                     <connections>
                         <segue destination="4Lp-a9-YIk" kind="relationship" relationship="viewControllers" id="sTN-bM-rAT"/>
                         <segue destination="M67-db-d9K" kind="relationship" relationship="viewControllers" id="eHf-F7-hqK"/>
@@ -387,7 +414,7 @@
         <image name="thedipper_20816_lg.gif" width="1024" height="729"/>
     </resources>
     <inferredMetricsTieBreakers>
-        <segue reference="d66-tx-eix"/>
+        <segue reference="KCV-SH-a3E"/>
     </inferredMetricsTieBreakers>
-    <color key="tintColor" red="1" green="0.0" blue="0.45159254156253059" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+    <color key="tintColor" red="1" green="0.0" blue="0.45159254160000001" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
 </document>
