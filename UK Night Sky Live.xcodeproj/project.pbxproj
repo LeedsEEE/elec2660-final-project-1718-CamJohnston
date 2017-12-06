@@ -35,6 +35,22 @@
 		B6E08CED1FC30CA400C71EDC /* SkyLiveTableViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = B6E08CEC1FC30CA400C71EDC /* SkyLiveTableViewController.m */; };
 		B6E08CF01FC30FE000C71EDC /* Constellation.m in Sources */ = {isa = PBXBuildFile; fileRef = B6E08CEF1FC30FE000C71EDC /* Constellation.m */; };
 		B6E08CF61FC3284C00C71EDC /* DataModel.m in Sources */ = {isa = PBXBuildFile; fileRef = B6E08CF51FC3284C00C71EDC /* DataModel.m */; };
+		B6ED1A711FD85DBB0074D7AB /* cancer28vm-b-589x432.jpg in Resources */ = {isa = PBXBuildFile; fileRef = B6ED1A701FD85DBB0074D7AB /* cancer28vm-b-589x432.jpg */; };
+		B6ED1A731FD85E1D0074D7AB /* LeoCC.jpg in Resources */ = {isa = PBXBuildFile; fileRef = B6ED1A721FD85E1D0074D7AB /* LeoCC.jpg */; };
+		B6ED1A751FD85E370074D7AB /* VirgoCC.jpg in Resources */ = {isa = PBXBuildFile; fileRef = B6ED1A741FD85E370074D7AB /* VirgoCC.jpg */; };
+		B6ED1A771FD85E4F0074D7AB /* LibraCC.jpg in Resources */ = {isa = PBXBuildFile; fileRef = B6ED1A761FD85E4F0074D7AB /* LibraCC.jpg */; };
+		B6ED1A791FD85E640074D7AB /* ScorpiusCC.jpg in Resources */ = {isa = PBXBuildFile; fileRef = B6ED1A781FD85E640074D7AB /* ScorpiusCC.jpg */; };
+		B6ED1A7B1FD85E790074D7AB /* SagittariusCC.jpg in Resources */ = {isa = PBXBuildFile; fileRef = B6ED1A7A1FD85E790074D7AB /* SagittariusCC.jpg */; };
+		B6ED1A7D1FD85E900074D7AB /* CapricornusCC.jpg in Resources */ = {isa = PBXBuildFile; fileRef = B6ED1A7C1FD85E900074D7AB /* CapricornusCC.jpg */; };
+		B6ED1A7F1FD85EA90074D7AB /* AquariusCC.jpg in Resources */ = {isa = PBXBuildFile; fileRef = B6ED1A7E1FD85EA90074D7AB /* AquariusCC.jpg */; };
+		B6ED1A811FD85EBF0074D7AB /* PiscesCC.jpg in Resources */ = {isa = PBXBuildFile; fileRef = B6ED1A801FD85EBF0074D7AB /* PiscesCC.jpg */; };
+		B6ED1A831FD85ED30074D7AB /* UrsaMinorCC.jpg in Resources */ = {isa = PBXBuildFile; fileRef = B6ED1A821FD85ED30074D7AB /* UrsaMinorCC.jpg */; };
+		B6ED1A851FD85EED0074D7AB /* LyraCC.jpg in Resources */ = {isa = PBXBuildFile; fileRef = B6ED1A841FD85EED0074D7AB /* LyraCC.jpg */; };
+		B6ED1A871FD85EFD0074D7AB /* BootesCC.jpg in Resources */ = {isa = PBXBuildFile; fileRef = B6ED1A861FD85EFD0074D7AB /* BootesCC.jpg */; };
+		B6ED1A891FD861320074D7AB /* orion-constellation.png in Resources */ = {isa = PBXBuildFile; fileRef = B6ED1A881FD861320074D7AB /* orion-constellation.png */; };
+		B6ED1A8B1FD862590074D7AB /* Icon-40.png in Resources */ = {isa = PBXBuildFile; fileRef = B6ED1A8A1FD862590074D7AB /* Icon-40.png */; };
+		B6ED1A951FD868730074D7AB /* Icon-32.png in Resources */ = {isa = PBXBuildFile; fileRef = B6ED1A941FD868730074D7AB /* Icon-32.png */; };
+		B6ED1A971FD869360074D7AB /* Calender.png in Resources */ = {isa = PBXBuildFile; fileRef = B6ED1A961FD869360074D7AB /* Calender.png */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -97,6 +113,22 @@
 		B6E08CEF1FC30FE000C71EDC /* Constellation.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Constellation.m; sourceTree = "<group>"; };
 		B6E08CF41FC3284C00C71EDC /* DataModel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DataModel.h; sourceTree = "<group>"; };
 		B6E08CF51FC3284C00C71EDC /* DataModel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DataModel.m; sourceTree = "<group>"; };
+		B6ED1A701FD85DBB0074D7AB /* cancer28vm-b-589x432.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "cancer28vm-b-589x432.jpg"; sourceTree = "<group>"; };
+		B6ED1A721FD85E1D0074D7AB /* LeoCC.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = LeoCC.jpg; sourceTree = "<group>"; };
+		B6ED1A741FD85E370074D7AB /* VirgoCC.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = VirgoCC.jpg; sourceTree = "<group>"; };
+		B6ED1A761FD85E4F0074D7AB /* LibraCC.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = LibraCC.jpg; sourceTree = "<group>"; };
+		B6ED1A781FD85E640074D7AB /* ScorpiusCC.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = ScorpiusCC.jpg; sourceTree = "<group>"; };
+		B6ED1A7A1FD85E790074D7AB /* SagittariusCC.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = SagittariusCC.jpg; sourceTree = "<group>"; };
+		B6ED1A7C1FD85E900074D7AB /* CapricornusCC.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = CapricornusCC.jpg; sourceTree = "<group>"; };
+		B6ED1A7E1FD85EA90074D7AB /* AquariusCC.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = AquariusCC.jpg; sourceTree = "<group>"; };
+		B6ED1A801FD85EBF0074D7AB /* PiscesCC.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = PiscesCC.jpg; sourceTree = "<group>"; };
+		B6ED1A821FD85ED30074D7AB /* UrsaMinorCC.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = UrsaMinorCC.jpg; sourceTree = "<group>"; };
+		B6ED1A841FD85EED0074D7AB /* LyraCC.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = LyraCC.jpg; sourceTree = "<group>"; };
+		B6ED1A861FD85EFD0074D7AB /* BootesCC.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = BootesCC.jpg; sourceTree = "<group>"; };
+		B6ED1A881FD861320074D7AB /* orion-constellation.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "orion-constellation.png"; sourceTree = "<group>"; };
+		B6ED1A8A1FD862590074D7AB /* Icon-40.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Icon-40.png"; sourceTree = "<group>"; };
+		B6ED1A941FD868730074D7AB /* Icon-32.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Icon-32.png"; sourceTree = "<group>"; };
+		B6ED1A961FD869360074D7AB /* Calender.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Calender.png; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -181,6 +213,22 @@
 				B66E65BF1FD71C2E00300079 /* AriesCC.jpg */,
 				B66E65C11FD71E4F00300079 /* TaurusCC.jpg */,
 				B66E65C51FD728F600300079 /* GeminiCC.jpg */,
+				B6ED1A701FD85DBB0074D7AB /* cancer28vm-b-589x432.jpg */,
+				B6ED1A721FD85E1D0074D7AB /* LeoCC.jpg */,
+				B6ED1A741FD85E370074D7AB /* VirgoCC.jpg */,
+				B6ED1A761FD85E4F0074D7AB /* LibraCC.jpg */,
+				B6ED1A7A1FD85E790074D7AB /* SagittariusCC.jpg */,
+				B6ED1A781FD85E640074D7AB /* ScorpiusCC.jpg */,
+				B6ED1A7C1FD85E900074D7AB /* CapricornusCC.jpg */,
+				B6ED1A7E1FD85EA90074D7AB /* AquariusCC.jpg */,
+				B6ED1A801FD85EBF0074D7AB /* PiscesCC.jpg */,
+				B6ED1A821FD85ED30074D7AB /* UrsaMinorCC.jpg */,
+				B6ED1A841FD85EED0074D7AB /* LyraCC.jpg */,
+				B6ED1A861FD85EFD0074D7AB /* BootesCC.jpg */,
+				B6ED1A881FD861320074D7AB /* orion-constellation.png */,
+				B6ED1A8A1FD862590074D7AB /* Icon-40.png */,
+				B6ED1A941FD868730074D7AB /* Icon-32.png */,
+				B6ED1A961FD869360074D7AB /* Calender.png */,
 				B6E08CB21FC3015B00C71EDC /* Supporting Files */,
 			);
 			path = "UK Night Sky Live";
@@ -319,6 +367,9 @@
 			buildActionMask = 2147483647;
 			files = (
 				B66E65BA1FD70B6300300079 /* CanisMajorCC.jpg in Resources */,
+				B6ED1A831FD85ED30074D7AB /* UrsaMinorCC.jpg in Resources */,
+				B6ED1A951FD868730074D7AB /* Icon-32.png in Resources */,
+				B6ED1A771FD85E4F0074D7AB /* LibraCC.jpg in Resources */,
 				B65BFD0F1FD59222002B4D6D /* Main.storyboard in Resources */,
 				B66E65C21FD71E4F00300079 /* TaurusCC.jpg in Resources */,
 				B66E65C41FD725A800300079 /* constellation.png in Resources */,
@@ -326,15 +377,28 @@
 				B6E08CC51FC3015B00C71EDC /* LaunchScreen.storyboard in Resources */,
 				B66E65C01FD71C2E00300079 /* AriesCC.jpg in Resources */,
 				B66E65B81FD7059A00300079 /* AquilaCC.jpg in Resources */,
+				B6ED1A871FD85EFD0074D7AB /* BootesCC.jpg in Resources */,
+				B6ED1A891FD861320074D7AB /* orion-constellation.png in Resources */,
 				B66E65B21FD7019F00300079 /* CassiopeiaCC.jpg in Resources */,
 				B66E65B61FD7030600300079 /* UrsaMajorCC.jpg in Resources */,
 				B66E65AA1FD700A900300079 /* CygnusCC.jpg in Resources */,
+				B6ED1A8B1FD862590074D7AB /* Icon-40.png in Resources */,
 				B66E65AC1FD7012100300079 /* OrionCC.jpg in Resources */,
+				B6ED1A731FD85E1D0074D7AB /* LeoCC.jpg in Resources */,
+				B6ED1A811FD85EBF0074D7AB /* PiscesCC.jpg in Resources */,
 				B6E08CC21FC3015B00C71EDC /* Assets.xcassets in Resources */,
+				B6ED1A791FD85E640074D7AB /* ScorpiusCC.jpg in Resources */,
+				B6ED1A7B1FD85E790074D7AB /* SagittariusCC.jpg in Resources */,
 				B66E65C61FD728F600300079 /* GeminiCC.jpg in Resources */,
+				B6ED1A751FD85E370074D7AB /* VirgoCC.jpg in Resources */,
 				B66E65BC1FD70F6000300079 /* M31_LRGB_AP155_U16M_web.jpg in Resources */,
+				B6ED1A711FD85DBB0074D7AB /* cancer28vm-b-589x432.jpg in Resources */,
+				B6ED1A851FD85EED0074D7AB /* LyraCC.jpg in Resources */,
 				B66E65B01FD7017500300079 /* AndromedaCC.jpg in Resources */,
+				B6ED1A7F1FD85EA90074D7AB /* AquariusCC.jpg in Resources */,
+				B6ED1A971FD869360074D7AB /* Calender.png in Resources */,
 				B66E65B41FD701F500300079 /* PegasusCC.jpg in Resources */,
+				B6ED1A7D1FD85E900074D7AB /* CapricornusCC.jpg in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

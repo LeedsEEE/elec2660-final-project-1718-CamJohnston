@@ -20,9 +20,16 @@
     return self;
 }
 
+//Method called array crreator that is called from multiple table views and creates three arrays
+//One with all constellations in it, one wih the constellations visible on this night, one with constellations visible on the selected month of the picker view
+
 -(void) arrayCreator {
+    
+    //creates the arrays for the Sort by month and Sky live table views
     self.visibleConstellations = [NSMutableArray array];
     self.pickedConstellations = [NSMutableArray array];
+    
+    //initialises my monthData object used to pass data from the picker in the SortByMonthViewController
     
     self.monthData = [[SortByMonthViewController alloc] init];
     
@@ -33,6 +40,7 @@
     orion.monthsVisible = 2040;
     orion.monthsVisibleArray = @[@0,@1,@1,@1,@1,@1,@1,@1,@1,@0,@0,@0];
     orion.imageID = @"OrionCC.jpg";
+    //image from https://en.wikipedia.org/wiki/Orion_(constellation)
     
     self.constellations = [NSMutableArray array];
     Constellation *cassiopeia = [[Constellation alloc] init];
@@ -41,6 +49,7 @@
     cassiopeia.monthsVisible = 0;
     cassiopeia.monthsVisibleArray = @[@1,@1,@1,@1,@1,@1,@1,@1,@1,@1,@1,@1];
     cassiopeia.imageID = @"CassiopeiaCC.jpg";
+    //image from https://en.wikipedia.org/wiki/Cassiopeia_(constellation)
     
     self.constellations = [NSMutableArray array];
     Constellation *andromeda = [[Constellation alloc] init];
@@ -49,6 +58,7 @@
     andromeda.monthsVisible = 2040;
     andromeda.monthsVisibleArray = @[@1,@0,@0,@0,@0,@1,@1,@1,@1,@1,@1,@1];
     andromeda.imageID = @"AndromedaCC.jpg";
+    //image from https://en.wikipedia.org/wiki/Andromeda_(constellation)
     
     self.constellations = [NSMutableArray array];
     Constellation *pegasus = [[Constellation alloc] init];
@@ -57,6 +67,7 @@
     pegasus.monthsVisible = 2040;
     pegasus.monthsVisibleArray = @[@0,@0,@0,@0,@0,@1,@1,@1,@1,@1,@1,@1];
     pegasus.imageID = @"PegasusCC.jpg";
+    //image from https://en.wikipedia.org/wiki/Pegasus_(constellation)
     
     self.constellations = [NSMutableArray array];
     Constellation *cygnus = [[Constellation alloc] init];
@@ -65,6 +76,7 @@
     cygnus.monthsVisible = 2040;
     cygnus.monthsVisibleArray = @[@0,@0,@0,@1,@1,@1,@1,@1,@1,@1,@1,@0];
     cygnus.imageID = @"CygnusCC.jpg";
+    //image from https://en.wikipedia.org/wiki/Cygnus_(constellation)
     
     self.constellations = [NSMutableArray array];
     Constellation *ursaM = [[Constellation alloc] init];
@@ -73,6 +85,7 @@
     ursaM.monthsVisible = 2040;
     ursaM.monthsVisibleArray = @[@1,@1,@1,@1,@1,@1,@1,@1,@1,@1,@1,@1];
     ursaM.imageID = @"UrsaMajorCC.jpg";
+    //image from https://en.wikipedia.org/wiki/Ursa_Major_(constellation)
     
     self.constellations = [NSMutableArray array];
     Constellation *aquila = [[Constellation alloc] init];
@@ -81,6 +94,7 @@
     aquila.monthsVisible = 2040;
     aquila.monthsVisibleArray = @[@0,@0,@0,@0,@1,@1,@1,@1,@1,@0,@0,@0];
     aquila.imageID = @"AquilaCC.jpg";
+    //image from https://en.wikipedia.org/wiki/Aquila_(constellation)
     
     self.constellations = [NSMutableArray array];
     Constellation *canisM = [[Constellation alloc] init];
@@ -89,6 +103,7 @@
     canisM.monthsVisible = 2040;
     canisM.monthsVisibleArray = @[@1,@0,@0,@0,@0,@0,@0,@0,@0,@0,@0,@1];
     canisM.imageID = @"CanisMajorCC.jpg";
+    //image from https://en.wikipedia.org/wiki/Canis_Major_(constellation)
     
     self.constellations = [NSMutableArray array];
     Constellation *aries = [[Constellation alloc] init];
@@ -97,6 +112,7 @@
     aries.monthsVisible = 2040;
     aries.monthsVisibleArray = @[@1,@1,@0,@0,@0,@0,@1,@1,@1,@1,@1,@1];
     aries.imageID = @"AriesCC.jpg";
+    //image from https://en.wikipedia.org/wiki/Aries_(constellation)
     
     self.constellations = [NSMutableArray array];
     Constellation *taurus = [[Constellation alloc] init];
@@ -105,6 +121,7 @@
     taurus.monthsVisible = 2040;
     taurus.monthsVisibleArray = @[@1,@1,@0,@0,@0,@0,@0,@0,@1,@1,@1,@1];
     taurus.imageID = @"TaurusCC.jpg";
+    //image from https://en.wikipedia.org/wiki/Taurus_(constellation)
     
     self.constellations = [NSMutableArray array];
     Constellation *gemini = [[Constellation alloc] init];
@@ -113,6 +130,7 @@
     gemini.monthsVisible = 2040;
     gemini.monthsVisibleArray = @[@1,@1,@1,@1,@1,@0,@0,@0,@0,@1,@1,@1];
     gemini.imageID = @"GeminiCC.jpg";
+    //image from https://en.wikipedia.org/wiki/Gemini_(constellation)
     
     self.constellations = [NSMutableArray array];
     Constellation *cancer = [[Constellation alloc] init];
@@ -120,7 +138,8 @@
     cancer.information = @"The Crab - a small, faint constellation in the zodiac between gemini and leo. The dimmest constellation in the zodiac.";
     cancer.monthsVisible = 2040;
     cancer.monthsVisibleArray = @[@1,@1,@1,@1,@0,@0,@0,@0,@0,@1,@1,@1];
-    cancer.imageID = @"CancerCC.jpg";
+    cancer.imageID = @"cancer28vm-b-589x432.jpg";
+    //image from https://www.universetoday.com/19721/cancer-constellation/
     
     self.constellations = [NSMutableArray array];
     Constellation *leo = [[Constellation alloc] init];
@@ -129,6 +148,7 @@
     leo.monthsVisible = 2040;
     leo.monthsVisibleArray = @[@1,@1,@1,@1,@1,@0,@0,@0,@0,@0,@1,@1];
     leo.imageID = @"LeoCC.jpg";
+    //image from https://en.wikipedia.org/wiki/Leo_(constellation)
     
     self.constellations = [NSMutableArray array];
     Constellation *virgo = [[Constellation alloc] init];
@@ -137,6 +157,7 @@
     virgo.monthsVisible = 2040;
     virgo.monthsVisibleArray = @[@0,@1,@1,@1,@1,@1,@0,@0,@0,@0,@0,@0];
     virgo.imageID = @"VirgoCC.jpg";
+    //image from https://en.wikipedia.org/wiki/Virgo_(constellation)
     
     self.constellations = [NSMutableArray array];
     Constellation *libra = [[Constellation alloc] init];
@@ -145,6 +166,7 @@
     libra.monthsVisible = 2040;
     libra.monthsVisibleArray = @[@0,@0,@0,@1,@1,@1,@1,@0,@0,@0,@0,@0];
     libra.imageID = @"LibraCC.jpg";
+    //image from https://en.wikipedia.org/wiki/Libra_(constellation)
     
     self.constellations = [NSMutableArray array];
     Constellation *scorpius = [[Constellation alloc] init];
@@ -153,14 +175,16 @@
     scorpius.monthsVisible = 2040;
     scorpius.monthsVisibleArray = @[@0,@0,@0,@0,@1,@1,@0,@0,@0,@0,@0,@0];
     scorpius.imageID = @"ScorpiusCC.jpg";
+    //image from https://en.wikipedia.org/wiki/Scorpius_(constellation)
     
     self.constellations = [NSMutableArray array];
     Constellation *sagittarius = [[Constellation alloc] init];
-    sagittarius.constellationName = @"Sagittariuss";
+    sagittarius.constellationName = @"Sagittarius";
     sagittarius.information = @"The Archer - a constellation in the zodiac that is located near the densest part of the milky way and contains many bright stars and deep space nebulae looking towards the galactic centre as well as hot star forming regions of our galaxy.";
     sagittarius.monthsVisible = 2040;
     sagittarius.monthsVisibleArray = @[@0,@0,@0,@0,@0,@1,@1,@0,@0,@0,@0,@0];
     sagittarius.imageID = @"SagittariusCC.jpg";
+    //image from https://en.wikipedia.org/wiki/Sagittarius_(constellation)
     
     self.constellations = [NSMutableArray array];
     Constellation *capricornus = [[Constellation alloc] init];
@@ -169,6 +193,7 @@
     capricornus.monthsVisible = 2040;
     capricornus.monthsVisibleArray = @[@0,@0,@0,@0,@0,@0,@1,@1,@1,@0,@0,@0];
     capricornus.imageID = @"CapricornusCC.jpg";
+    //image from https://en.wikipedia.org/wiki/Capricornus_(constellation)
     
     self.constellations = [NSMutableArray array];
     Constellation *aquarius = [[Constellation alloc] init];
@@ -177,6 +202,7 @@
     aquarius.monthsVisible = 2040;
     aquarius.monthsVisibleArray = @[@0,@0,@0,@0,@0,@0,@1,@1,@1,@1,@0,@0];
     aquarius.imageID = @"AquariusCC.jpg";
+    //image from https://en.wikipedia.org/wiki/Aquarius_(constellation)
     
     self.constellations = [NSMutableArray array];
     Constellation *pisces = [[Constellation alloc] init];
@@ -185,6 +211,7 @@
     pisces.monthsVisible = 2040;
     pisces.monthsVisibleArray = @[@0,@0,@0,@0,@0,@0,@0,@1,@1,@1,@1,@1];
     pisces.imageID = @"PiscesCC.jpg";
+    //image from https://en.wikipedia.org/wiki/Pisces_(constellation)
     
     self.constellations = [NSMutableArray array];
     Constellation *ursam = [[Constellation alloc] init];
@@ -193,6 +220,7 @@
     ursam.monthsVisible = 2040;
     ursam.monthsVisibleArray = @[@1,@1,@1,@1,@1,@1,@1,@1,@1,@1,@1,@1];
     ursam.imageID = @"UrsaMinorCC.jpg";
+    //image from https://en.wikipedia.org/wiki/Ursa_Minor
     
     self.constellations = [NSMutableArray array];
     Constellation *lyra = [[Constellation alloc] init];
@@ -201,6 +229,7 @@
     lyra.monthsVisible = 2040;
     lyra.monthsVisibleArray = @[@1,@1,@1,@1,@1,@1,@1,@1,@1,@1,@1,@1];
     lyra.imageID = @"LyraCC.jpg";
+    //image from https://en.wikipedia.org/wiki/Lyra_(constellation)
     
     self.constellations = [NSMutableArray array];
     Constellation *bootes = [[Constellation alloc] init];
@@ -209,37 +238,40 @@
     bootes.monthsVisible = 2040;
     bootes.monthsVisibleArray = @[@1,@1,@1,@1,@1,@1,@1,@0,@0,@0,@0,@0];
     bootes.imageID = @"BootesCC.jpg";
+    //image from https://en.wikipedia.org/wiki/Bootes_(constellation)
     
     self.monthData = [[SortByMonthViewController alloc] init];
     
     NSInteger CurrentMonth;
     
+    //Acquires current date from phone by loading the current calender (gregorian calendar) and saving the month as an integer
+    //Each month has a number 1-12 and I can use that number to test if a constellation is visible in the month
+    
     NSDate *currentDate = [NSDate date];
     NSCalendar* calendar = [NSCalendar currentCalendar];
+    
+    //I only require the month as day to day the constellations don't change a significant amount
+    
     NSDateComponents* components = [calendar components:NSCalendarUnitMonth fromDate:currentDate];      //https://stackoverflow.com/questions/6478651/nsdatecomponents-of-an-nsdate
     
     CurrentMonth = [components month];
     
+    //Test that the method has worked
+    
     NSLog(@"CURRENT MONTH IS %ld", (long)CurrentMonth);
-    //    NSNumber *testVisible = [orion.monthsVisibleArray objectAtIndex:0];
     
     
-    //self.pickerMonth = self.monthData.selectedMonth;
+    
+    //Reading from an NSUserDefault variable with key "PickedMonth"
     
     NSUserDefaults *defaults = [NSUserDefaults standardUserDefaults];
     self.pickerMonth = [defaults integerForKey:@"PickedMonth"];     //http://www.ios-blog.co.uk/tutorials/objective-c/storing-data-with-nsuserdefaults/
     
+    //Testing I have recieved the month from the picker to manipulate my data
+    
     NSLog(@"Picked Month Test 1 is %ld", self.pickerMonth);
-    NSLog(@"Picked Month Test 2 IS %ld", (long)self.monthData.selectedMonth);
     
-    
-    
-    
-    
-    
-    NSArray *myConstellations;
-    
-    myConstellations = @[@"orion",@"cassiopeia"];
+    //Adds each constellation object with it's data in to the array constellations
     
     [self.constellations addObject:orion];
     [self.constellations addObject:cassiopeia];
@@ -271,26 +303,30 @@
     
     while (i <= 22) {
         
-        
-        
+        //The months from NSDate method go from 1-12 but the positions in the array of visible months go from 0-11
+        //So I take one off the CurrentMonth so I can look at the correct element i the array
         
         NSInteger position = CurrentMonth - 1;
         
+        //A temproray object called checkingConstellation is created so I can check methodically through each constellation object if it is visble in either the current or picked month
         
         Constellation *checkingConstellation = [[Constellation alloc] init];
         
+        //Loads a constellation object in to checkingConstellation to be inspected
+        
         checkingConstellation = [self.constellations objectAtIndex:i];
         
-        NSString *name = checkingConstellation.constellationName;
+        //For debugging
         
-        
-        NSLog(@"%@", name);
         NSLog(@"%@", checkingConstellation);
         
+        //Loads either a 0 or a 1 on to isItVisible from the monthsVisibleArray of the element of the current month
         
         NSNumber *isItVisible = [checkingConstellation.monthsVisibleArray objectAtIndex:position];
         
         NSLog(@"VISIBILITY CHECK %@", isItVisible);
+        
+        //If at the current month a constellation is visible it is loaded in to visibleConstellations
         
         if (isItVisible.intValue == 1){
             
@@ -298,16 +334,13 @@
             
         }
         
-        NSLog(@"Month used from picker %ld", self.pickerMonth);
-        
         NSInteger pickedPosition = self.pickerMonth;
+        
+        //Like isItVisible, isItPicked is created to load the value from the monthsVisibleArray so it can be checked if the constellation is visible on the selected month
         
         NSNumber *isItPicked = [checkingConstellation.monthsVisibleArray objectAtIndex:pickedPosition];
         
-        NSNumber *orionTest = [orion.monthsVisibleArray objectAtIndex:pickedPosition];
-        
-        NSLog(@"Orion is %@", orionTest);
-        
+        //If at the picked month a constellation is visible it is loaded in to pickedConstellations
         
         if (isItPicked.intValue == 1) {
             
@@ -315,13 +348,14 @@
             
         }
         
-        //[self.constellations addObject:checkingConstellation];
+        //Debugging
         
         NSLog(@"%ld", (long)i);
         
+        //The loop repeats with an incremented value of i so the next constellation object is loaded and checked or until all have been checked
+        
         i++;
         
-        //
     }
     
     
